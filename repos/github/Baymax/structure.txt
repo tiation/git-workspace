@@ -1,0 +1,22 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/repos/github/Baymax
+├── backups
+│   ├── structure.json
+│   └── structure.txt
+├── memories
+│   ├── structure.json
+│   └── structure.txt
+├── models
+│   ├── structure.json
+│   └── structure.txt
+├── projects
+│   ├── structure.json
+│   └── structure.txt
+├── prompts
+│   ├── structure.json
+│   └── structure.txt
+├── run_baymax.py
+├── setup.sh
+├── structure.json
+└── structure.txt
+
+6 directories, 14 files

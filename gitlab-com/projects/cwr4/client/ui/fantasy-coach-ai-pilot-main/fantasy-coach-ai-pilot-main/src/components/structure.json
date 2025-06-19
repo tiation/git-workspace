@@ -1,0 +1,15 @@
+[
+  "structure.json",
+  "structure.txt",
+  "ui/structure.json",
+  "ui/structure.txt",
+  "dashboard/Dashboard.tsx",
+  "dashboard/structure.json",
+  "dashboard/DashboardSidebar.tsx",
+  "dashboard/RiskAnalysis.tsx",
+  "dashboard/StrategyTools.tsx",
+  "dashboard/structure.txt",
+  "dashboard/TeamOverview.tsx",
+  "dashboard/TradeCenter.tsx",
+  "dashboard/PlayerStats.tsx"
+]

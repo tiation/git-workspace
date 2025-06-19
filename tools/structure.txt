@@ -1,0 +1,16 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/tools
+├── cli
+│   ├── gh
+│   │   ├── gh
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── glab
+│   │   ├── glab
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+└── structure.txt
+
+4 directories, 10 files

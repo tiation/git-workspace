@@ -1,0 +1,6 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/repos/apfs-fuse/3rdparty/lzfse/tests
+├── round-trip.cmake
+├── structure.json
+└── structure.txt
+
+1 directory, 3 files

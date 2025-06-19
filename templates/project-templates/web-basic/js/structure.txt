@@ -1,0 +1,6 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/templates/project-templates/web-basic/js
+├── main.js
+├── structure.json
+└── structure.txt
+
+1 directory, 3 files

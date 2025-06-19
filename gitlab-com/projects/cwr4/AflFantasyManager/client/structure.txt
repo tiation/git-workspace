@@ -1,0 +1,94 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/AflFantasyManager/client
+├── index.html
+├── src
+│   ├── App.tsx
+│   ├── App.tsx.bak
+│   ├── components
+│   │   ├── dashboard
+│   │   │   ├── performance-chart.tsx
+│   │   │   ├── score-card.tsx
+│   │   │   ├── structure.json
+│   │   │   ├── structure.txt
+│   │   │   └── team-structure.tsx
+│   │   ├── layout
+│   │   │   ├── bottom-nav.tsx
+│   │   │   ├── header.tsx
+│   │   │   ├── sidebar.tsx
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── leagues
+│   │   │   ├── league-ladder.tsx
+│   │   │   ├── leagues-list.tsx
+│   │   │   ├── live-matchups.tsx
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── lineup
+│   │   │   ├── structure.json
+│   │   │   ├── structure.txt
+│   │   │   ├── team-lineup.tsx
+│   │   │   ├── team-summary-new.tsx
+│   │   │   └── team-summary.tsx
+│   │   ├── player-stats
+│   │   │   ├── player-stats-table.tsx
+│   │   │   ├── player-table.tsx
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── ui
+│   │       ├── avatar.tsx
+│   │       ├── badge.tsx
+│   │       ├── breadcrumb.tsx
+│   │       ├── calendar.tsx
+│   │       ├── card.tsx
+│   │       ├── chart.tsx
+│   │       ├── collapsible.tsx
+│   │       ├── command.tsx
+│   │       ├── context-menu.tsx
+│   │       ├── dialog.tsx
+│   │       ├── drawer.tsx
+│   │       ├── dropdown-menu.tsx
+│   │       ├── form.tsx
+│   │       ├── hover-card.tsx
+│   │       ├── menubar.tsx
+│   │       ├── navigation-menu.tsx
+│   │       ├── popover.tsx
+│   │       ├── progress.tsx
+│   │       ├── resizable.tsx
+│   │       ├── select.tsx
+│   │       ├── sheet.tsx
+│   │       ├── sidebar.tsx
+│   │       ├── structure.json
+│   │       ├── structure.txt
+│   │       ├── table.tsx
+│   │       ├── textarea.tsx
+│   │       ├── toggle-group.tsx
+│   │       ├── toggle.tsx
+│   │       └── tooltip.tsx
+│   ├── hooks
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── use-mobile.tsx
+│   ├── index.css
+│   ├── lib
+│   │   ├── queryClient.ts
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── utils.ts
+│   ├── main.tsx
+│   ├── pages
+│   │   ├── dashboard.tsx
+│   │   ├── leagues.tsx
+│   │   ├── lineup.tsx
+│   │   ├── not-found.tsx
+│   │   ├── player-stats.tsx
+│   │   ├── stats.tsx
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── tools.tsx
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+└── structure.txt
+
+12 directories, 80 files

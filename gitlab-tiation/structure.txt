@@ -1,0 +1,115 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-tiation
+├── chasewhiterabbit
+│   ├── projects
+│   │   ├── gitlab-docs
+│   │   │   ├── README.md
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── config
+│   ├── projects
+│   │   ├── bash_config
+│   │   │   ├── README.md
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── dotfiles
+│   │   │   ├── README.md
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── gh
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── gitconfig
+│   │   ├── github
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── gitlab
+│   │   │   ├── com.conf
+│   │   │   ├── private.conf
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── glab
+│   │   │   ├── aliases.yml
+│   │   │   ├── config.yml
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── network
+│   │   │   ├── README.md
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── snippets
+│   │   │   ├── README.md
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── cwr
+│   ├── projects
+│   │   ├── ai
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── chatgpt
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── crispy-succotash-main
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── dnd.directory
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── intranet.chasewhiterabbit.com
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── my-vue-app
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── network
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── secrets
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   ├── vllm-env
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── web3-cross-platform-dapp-main
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   └── webappdice-pr-smol-dev-x3bmya
+│   │       ├── structure.json
+│   │       └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── personal
+│   ├── projects
+│   │   ├── bookmarks
+│   │   │   ├── README.md
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── dnd.directory
+│   │   │   ├── README.md
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── info-silo
+│   │   │   ├── README.md
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── sms_relentless
+│   │   │   ├── README.md
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+└── structure.txt
+
+33 directories, 80 files

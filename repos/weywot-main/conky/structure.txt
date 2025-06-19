@@ -1,0 +1,64 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/repos/weywot-main/conky
+├── Antares
+│   ├── Antares
+│   ├── AntaresOK
+│   ├── AntaresOK.bigscreen
+│   ├── AntaresOK_Complete
+│   ├── AntaresOK.good
+│   ├── AntaresOK_ori
+│   ├── AntaresOK_Perf1
+│   ├── Antares.png
+│   ├── bg-00.png
+│   ├── bg-01.png
+│   ├── bg.png
+│   ├── convert.lua
+│   ├── Fonts
+│   │   ├── Metropolis Black.ttf
+│   │   ├── Metropolis Extra Bold.ttf
+│   │   ├── Metropolis Light.ttf
+│   │   ├── Metropolis Medium.ttf
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── icon.lua
+│   ├── icons
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── white
+│   │       ├── 01d.png
+│   │       ├── 01n.png
+│   │       ├── 02d.png
+│   │       ├── 02n.png
+│   │       ├── 09d.png
+│   │       ├── 09n.png
+│   │       ├── 11d.png
+│   │       ├── 13d.png
+│   │       ├── 50d.png
+│   │       ├── arrow-down.png
+│   │       ├── arrow-up.png
+│   │       ├── blackline.png
+│   │       ├── humidity.png
+│   │       ├── line.png
+│   │       ├── map-marker.png
+│   │       ├── structure.json
+│   │       ├── structure.txt
+│   │       └── wind.png
+│   ├── line.png
+│   ├── rings-v1.2.1.lua
+│   ├── scripts
+│   │   ├── =
+│   │   ├── kelvin2celsius.sh
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   ├── weather-icon.sh
+│   │   └── weather.sh
+│   ├── structure.json
+│   ├── structure.txt
+│   └── time.lua
+├── start_conky-big.sh
+├── start_conky-big.sh.autostart
+├── start_conky.sh
+├── start_conky.sh.desktop
+├── structure.json
+└── structure.txt
+
+6 directories, 56 files

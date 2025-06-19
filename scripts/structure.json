@@ -1,0 +1,15 @@
+[
+  "structure.json",
+  "gh-cli",
+  "dev-tools.sh",
+  "structure.txt",
+  "glab-cli",
+  "sync-repos.sh",
+  "setup.sh",
+  "setup-cli.sh",
+  "git-portable",
+  "utils/structure.json",
+  "utils/init-workspace.sh",
+  "utils/repo-manager.sh",
+  "utils/structure.txt"
+]

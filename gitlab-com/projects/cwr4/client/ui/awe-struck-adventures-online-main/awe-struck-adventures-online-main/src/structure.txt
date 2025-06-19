@@ -1,0 +1,28 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/client/ui/awe-struck-adventures-online-main/awe-struck-adventures-online-main/src
+├── App.css
+├── components
+│   ├── AdventuresSection.tsx
+│   ├── ClassesSection.tsx
+│   ├── Footer.tsx
+│   ├── HeroSection.tsx
+│   ├── Navbar.tsx
+│   ├── structure.json
+│   ├── structure.txt
+│   └── ui
+│       ├── structure.json
+│       └── structure.txt
+├── hooks
+│   ├── structure.json
+│   └── structure.txt
+├── index.css
+├── lib
+│   ├── structure.json
+│   └── structure.txt
+├── pages
+│   ├── Index.tsx
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+└── structure.txt
+
+6 directories, 20 files

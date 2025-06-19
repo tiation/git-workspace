@@ -1,0 +1,10 @@
+#!/bin/bash
+# GitLab CLI wrapper with portable configuration
+
+# Set environment variables
+export GLAB_CONFIG_DIR="/home/lappy/Desktop/Projects/git-workspace/config/glab"
+export XDG_CONFIG_HOME="/home/lappy/Desktop/Projects/git-workspace/config"
+export GITLAB_URI=https://gitlab.com
+
+# Execute GitLab CLI
+"/home/lappy/Desktop/Projects/git-workspace/tools/cli/glab/glab" "$@"

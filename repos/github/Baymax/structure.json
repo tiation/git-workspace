@@ -1,0 +1,16 @@
+[
+  "structure.json",
+  "run_baymax.py",
+  "structure.txt",
+  "setup.sh",
+  "models/structure.json",
+  "models/structure.txt",
+  "prompts/structure.json",
+  "prompts/structure.txt",
+  "backups/structure.json",
+  "backups/structure.txt",
+  "projects/structure.json",
+  "projects/structure.txt",
+  "memories/structure.json",
+  "memories/structure.txt"
+]

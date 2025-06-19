@@ -1,0 +1,23 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/docs
+├── api
+│   ├── structure.json
+│   └── structure.txt
+├── backend
+│   ├── structure.json
+│   └── structure.txt
+├── config
+│   ├── structure.json
+│   └── structure.txt
+├── development
+│   ├── structure.json
+│   └── structure.txt
+├── setup
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+├── structure.txt
+└── ui
+    ├── structure.json
+    └── structure.txt
+
+7 directories, 14 files

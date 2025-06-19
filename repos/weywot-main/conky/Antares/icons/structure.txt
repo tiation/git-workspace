@@ -1,0 +1,24 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/repos/weywot-main/conky/Antares/icons
+├── structure.json
+├── structure.txt
+└── white
+    ├── 01d.png
+    ├── 01n.png
+    ├── 02d.png
+    ├── 02n.png
+    ├── 09d.png
+    ├── 09n.png
+    ├── 11d.png
+    ├── 13d.png
+    ├── 50d.png
+    ├── arrow-down.png
+    ├── arrow-up.png
+    ├── blackline.png
+    ├── humidity.png
+    ├── line.png
+    ├── map-marker.png
+    ├── structure.json
+    ├── structure.txt
+    └── wind.png
+
+2 directories, 20 files

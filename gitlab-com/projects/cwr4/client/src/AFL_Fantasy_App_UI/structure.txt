@@ -1,0 +1,26 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/client/src/AFL_Fantasy_App_UI
+├── public
+│   ├── structure.json
+│   └── structure.txt
+├── src
+│   ├── components
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── ui
+│   │       ├── structure.json
+│   │       └── structure.txt
+│   ├── hooks
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── lib
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── pages
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+└── structure.txt
+
+8 directories, 16 files

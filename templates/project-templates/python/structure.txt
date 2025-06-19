@@ -1,0 +1,11 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/templates/project-templates/python
+├── .gitignore
+├── project_name
+│   ├── __init__.py
+│   ├── structure.json
+│   └── structure.txt
+├── setup.py
+├── structure.json
+└── structure.txt
+
+2 directories, 7 files

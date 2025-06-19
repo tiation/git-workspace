@@ -1,0 +1,11 @@
+[
+  "structure.json",
+  "structure.txt",
+  "Navbar.tsx",
+  "AdventuresSection.tsx",
+  "ClassesSection.tsx",
+  "HeroSection.tsx",
+  "Footer.tsx",
+  "ui/structure.json",
+  "ui/structure.txt"
+]

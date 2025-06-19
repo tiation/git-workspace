@@ -1,0 +1,16 @@
+[
+  "structure.json",
+  "structure.txt",
+  "backend/structure.json",
+  "backend/structure.txt",
+  "config/structure.json",
+  "config/structure.txt",
+  "ui/structure.json",
+  "ui/structure.txt",
+  "api/structure.json",
+  "api/structure.txt",
+  "setup/structure.json",
+  "setup/structure.txt",
+  "development/structure.json",
+  "development/structure.txt"
+]

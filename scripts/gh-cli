@@ -1,0 +1,10 @@
+#!/bin/bash
+# GitHub CLI wrapper with portable configuration
+
+# Set environment variables
+export GH_CONFIG_DIR="/home/lappy/Desktop/Projects/git-workspace/config/gh"
+export XDG_CONFIG_HOME="/home/lappy/Desktop/Projects/git-workspace/config"
+export GH_HOST=github.com
+
+# Execute GitHub CLI
+"/home/lappy/Desktop/Projects/git-workspace/tools/cli/gh/gh" "$@"

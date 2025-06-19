@@ -1,0 +1,1393 @@
+/home/lappy/work/015_Shared_Tools/git-workspace
+├── activate-cli.sh
+├── activate.sh
+├── docs
+│   ├── cli-tools.md
+│   ├── dev-tools.md
+│   ├── example-commands.md
+│   ├── index.md
+│   ├── structure.json
+│   ├── structure.txt
+│   ├── sync-tools.md
+│   └── templates.md
+├── env
+│   ├── .env
+│   ├── .env.template
+│   ├── structure.json
+│   └── structure.txt
+├── gh-repo.txt
+├── .gitconfig
+├── github
+│   ├── archived
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── projects
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── gitlab-com
+│   ├── projects
+│   │   ├── cwr4
+│   │   │   ├── AflFantasyManager
+│   │   │   │   ├── attached_assets
+│   │   │   │   │   ├── Screenshot_20250419-190255.png
+│   │   │   │   │   ├── Screenshot_20250419-190301.png
+│   │   │   │   │   ├── Screenshot_20250419-190308.png
+│   │   │   │   │   ├── Screenshot_20250419-190311.png
+│   │   │   │   │   ├── Screenshot_20250419-190321.png
+│   │   │   │   │   ├── Screenshot_20250419-192210.png
+│   │   │   │   │   ├── Screenshot_20250419-192214.png
+│   │   │   │   │   ├── Screenshot_20250419-192224.png
+│   │   │   │   │   ├── Screenshot_20250419-192230.png
+│   │   │   │   │   ├── Screenshot_20250419-192233.png
+│   │   │   │   │   ├── Screenshot_20250419-192824.png
+│   │   │   │   │   ├── Screenshot_20250419-192828.png
+│   │   │   │   │   ├── Screenshot_20250419-192900.png
+│   │   │   │   │   ├── Screenshot_20250419-192907.png
+│   │   │   │   │   ├── Screenshot_20250420-184429.png
+│   │   │   │   │   ├── Screenshot_20250420-192725.png
+│   │   │   │   │   ├── Screenshot_20250420-192729.png
+│   │   │   │   │   ├── Screenshot_20250420-192733.png
+│   │   │   │   │   ├── Screenshot_20250420-192736.png
+│   │   │   │   │   ├── Screenshot_20250420-223819.png
+│   │   │   │   │   ├── Screenshot_20250420-223829.png
+│   │   │   │   │   ├── Screenshot_20250420-223832.png
+│   │   │   │   │   ├── Screenshot_20250420-223927.png
+│   │   │   │   │   ├── Screenshot_20250420-223933.png
+│   │   │   │   │   ├── Screenshot_20250420-223935.png
+│   │   │   │   │   ├── Screenshot_20250420-223941.png
+│   │   │   │   │   ├── Screenshot_20250420-223949.png
+│   │   │   │   │   ├── Screenshot_20250420-223956.png
+│   │   │   │   │   ├── Screenshot_20250421-141931.png
+│   │   │   │   │   ├── Screenshot_20250421-142048.png
+│   │   │   │   │   ├── Screenshot_20250422-005756.png
+│   │   │   │   │   ├── Screenshot_20250422-005800.png
+│   │   │   │   │   ├── Screenshot_20250422-005802.png
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── client
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   ├── src
+│   │   │   │   │   │   ├── App.tsx
+│   │   │   │   │   │   ├── App.tsx.bak
+│   │   │   │   │   │   ├── components
+│   │   │   │   │   │   │   ├── dashboard
+│   │   │   │   │   │   │   │   ├── performance-chart.tsx
+│   │   │   │   │   │   │   │   ├── score-card.tsx
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   │   │   └── team-structure.tsx
+│   │   │   │   │   │   │   ├── layout
+│   │   │   │   │   │   │   │   ├── bottom-nav.tsx
+│   │   │   │   │   │   │   │   ├── header.tsx
+│   │   │   │   │   │   │   │   ├── sidebar.tsx
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   ├── leagues
+│   │   │   │   │   │   │   │   ├── league-ladder.tsx
+│   │   │   │   │   │   │   │   ├── leagues-list.tsx
+│   │   │   │   │   │   │   │   ├── live-matchups.tsx
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   ├── lineup
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   │   │   ├── team-lineup.tsx
+│   │   │   │   │   │   │   │   ├── team-summary-new.tsx
+│   │   │   │   │   │   │   │   └── team-summary.tsx
+│   │   │   │   │   │   │   ├── player-stats
+│   │   │   │   │   │   │   │   ├── player-stats-table.tsx
+│   │   │   │   │   │   │   │   ├── player-table.tsx
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   │   └── ui
+│   │   │   │   │   │   │       ├── avatar.tsx
+│   │   │   │   │   │   │       ├── badge.tsx
+│   │   │   │   │   │   │       ├── breadcrumb.tsx
+│   │   │   │   │   │   │       ├── calendar.tsx
+│   │   │   │   │   │   │       ├── card.tsx
+│   │   │   │   │   │   │       ├── chart.tsx
+│   │   │   │   │   │   │       ├── collapsible.tsx
+│   │   │   │   │   │   │       ├── command.tsx
+│   │   │   │   │   │   │       ├── context-menu.tsx
+│   │   │   │   │   │   │       ├── dialog.tsx
+│   │   │   │   │   │   │       ├── drawer.tsx
+│   │   │   │   │   │   │       ├── dropdown-menu.tsx
+│   │   │   │   │   │   │       ├── form.tsx
+│   │   │   │   │   │   │       ├── hover-card.tsx
+│   │   │   │   │   │   │       ├── menubar.tsx
+│   │   │   │   │   │   │       ├── navigation-menu.tsx
+│   │   │   │   │   │   │       ├── popover.tsx
+│   │   │   │   │   │   │       ├── progress.tsx
+│   │   │   │   │   │   │       ├── resizable.tsx
+│   │   │   │   │   │   │       ├── select.tsx
+│   │   │   │   │   │   │       ├── sheet.tsx
+│   │   │   │   │   │   │       ├── sidebar.tsx
+│   │   │   │   │   │   │       ├── structure.json
+│   │   │   │   │   │   │       ├── structure.txt
+│   │   │   │   │   │   │       ├── table.tsx
+│   │   │   │   │   │   │       ├── textarea.tsx
+│   │   │   │   │   │   │       ├── toggle-group.tsx
+│   │   │   │   │   │   │       ├── toggle.tsx
+│   │   │   │   │   │   │       └── tooltip.tsx
+│   │   │   │   │   │   ├── hooks
+│   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   │   └── use-mobile.tsx
+│   │   │   │   │   │   ├── index.css
+│   │   │   │   │   │   ├── lib
+│   │   │   │   │   │   │   ├── queryClient.ts
+│   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   │   └── utils.ts
+│   │   │   │   │   │   ├── main.tsx
+│   │   │   │   │   │   ├── pages
+│   │   │   │   │   │   │   ├── dashboard.tsx
+│   │   │   │   │   │   │   ├── leagues.tsx
+│   │   │   │   │   │   │   ├── lineup.tsx
+│   │   │   │   │   │   │   ├── not-found.tsx
+│   │   │   │   │   │   │   ├── player-stats.tsx
+│   │   │   │   │   │   │   ├── stats.tsx
+│   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   │   └── tools.tsx
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── drizzle.config.ts
+│   │   │   │   ├── generated-icon.png
+│   │   │   │   ├── .gitignore
+│   │   │   │   ├── package.json
+│   │   │   │   ├── package-lock.json
+│   │   │   │   ├── .replit
+│   │   │   │   ├── server
+│   │   │   │   │   ├── db.ts
+│   │   │   │   │   ├── index.ts
+│   │   │   │   │   ├── routes.ts
+│   │   │   │   │   ├── storage.ts
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   ├── structure.txt
+│   │   │   │   │   └── vite.ts
+│   │   │   │   ├── shared
+│   │   │   │   │   ├── schema.ts
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   ├── tailwind.config.ts
+│   │   │   │   ├── theme.json
+│   │   │   │   ├── tsconfig.json
+│   │   │   │   └── vite.config.ts
+│   │   │   ├── client
+│   │   │   │   ├── src
+│   │   │   │   │   ├── AFL_Fantasy_App_Backend
+│   │   │   │   │   │   ├── AFLFantasy_Backend_70Tools
+│   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   │   └── tools
+│   │   │   │   │   │   │       ├── structure.json
+│   │   │   │   │   │   │       └── structure.txt
+│   │   │   │   │   │   ├── AFLFantasyRouterDBApp
+│   │   │   │   │   │   │   ├── backend
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   ├── database
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   ├── frontend
+│   │   │   │   │   │   │   │   ├── pages
+│   │   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   ├── afl_fantasy_scrapy_api_project
+│   │   │   │   │   │   │   ├── flask_api
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   │   │   ├── tools
+│   │   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   │   └── utils
+│   │   │   │   │   │   │   │       ├── structure.json
+│   │   │   │   │   │   │   │       └── structure.txt
+│   │   │   │   │   │   │   ├── scraper
+│   │   │   │   │   │   │   │   ├── spiders
+│   │   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   ├── AFL_Fantasy_App_UI
+│   │   │   │   │   │   ├── public
+│   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   ├── src
+│   │   │   │   │   │   │   ├── components
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   │   │   └── ui
+│   │   │   │   │   │   │   │       ├── structure.json
+│   │   │   │   │   │   │   │       └── structure.txt
+│   │   │   │   │   │   │   ├── hooks
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   ├── lib
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   ├── pages
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   └── ui
+│   │   │   │       ├── afl-fantasy-synergy-main
+│   │   │   │       │   ├── afl-fantasy-synergy-main
+│   │   │   │       │   │   ├── index.html
+│   │   │   │       │   │   ├── public
+│   │   │   │       │   │   │   ├── structure.json
+│   │   │   │       │   │   │   └── structure.txt
+│   │   │   │       │   │   ├── README.md
+│   │   │   │       │   │   ├── src
+│   │   │   │       │   │   │   ├── components
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   ├── structure.txt
+│   │   │   │       │   │   │   │   └── ui
+│   │   │   │       │   │   │   │       ├── structure.json
+│   │   │   │       │   │   │   │       └── structure.txt
+│   │   │   │       │   │   │   ├── hooks
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   └── structure.txt
+│   │   │   │       │   │   │   ├── index.css
+│   │   │   │       │   │   │   ├── lib
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   └── structure.txt
+│   │   │   │       │   │   │   ├── pages
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   └── structure.txt
+│   │   │   │       │   │   │   ├── structure.json
+│   │   │   │       │   │   │   └── structure.txt
+│   │   │   │       │   │   ├── structure.json
+│   │   │   │       │   │   ├── structure.txt
+│   │   │   │       │   │   └── tailwind.config.ts
+│   │   │   │       │   ├── structure.json
+│   │   │   │       │   └── structure.txt
+│   │   │   │       ├── awe-struck-adventures-online-main
+│   │   │   │       │   ├── awe-struck-adventures-online-main
+│   │   │   │       │   │   ├── index.html
+│   │   │   │       │   │   ├── public
+│   │   │   │       │   │   │   ├── structure.json
+│   │   │   │       │   │   │   └── structure.txt
+│   │   │   │       │   │   ├── README.md
+│   │   │   │       │   │   ├── src
+│   │   │   │       │   │   │   ├── App.css
+│   │   │   │       │   │   │   ├── components
+│   │   │   │       │   │   │   │   ├── AdventuresSection.tsx
+│   │   │   │       │   │   │   │   ├── ClassesSection.tsx
+│   │   │   │       │   │   │   │   ├── Footer.tsx
+│   │   │   │       │   │   │   │   ├── HeroSection.tsx
+│   │   │   │       │   │   │   │   ├── Navbar.tsx
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   ├── structure.txt
+│   │   │   │       │   │   │   │   └── ui
+│   │   │   │       │   │   │   │       ├── structure.json
+│   │   │   │       │   │   │   │       └── structure.txt
+│   │   │   │       │   │   │   ├── hooks
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   └── structure.txt
+│   │   │   │       │   │   │   ├── index.css
+│   │   │   │       │   │   │   ├── lib
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   └── structure.txt
+│   │   │   │       │   │   │   ├── pages
+│   │   │   │       │   │   │   │   ├── Index.tsx
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   └── structure.txt
+│   │   │   │       │   │   │   ├── structure.json
+│   │   │   │       │   │   │   └── structure.txt
+│   │   │   │       │   │   ├── structure.json
+│   │   │   │       │   │   ├── structure.txt
+│   │   │   │       │   │   └── tailwind.config.ts
+│   │   │   │       │   ├── structure.json
+│   │   │   │       │   └── structure.txt
+│   │   │   │       ├── fantasy-coach-ai-pilot-main
+│   │   │   │       │   ├── fantasy-coach-ai-pilot-main
+│   │   │   │       │   │   ├── index.html
+│   │   │   │       │   │   ├── public
+│   │   │   │       │   │   │   ├── structure.json
+│   │   │   │       │   │   │   └── structure.txt
+│   │   │   │       │   │   ├── README.md
+│   │   │   │       │   │   ├── src
+│   │   │   │       │   │   │   ├── components
+│   │   │   │       │   │   │   │   ├── dashboard
+│   │   │   │       │   │   │   │   │   ├── DashboardSidebar.tsx
+│   │   │   │       │   │   │   │   │   ├── Dashboard.tsx
+│   │   │   │       │   │   │   │   │   ├── PlayerStats.tsx
+│   │   │   │       │   │   │   │   │   ├── RiskAnalysis.tsx
+│   │   │   │       │   │   │   │   │   ├── StrategyTools.tsx
+│   │   │   │       │   │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   │   ├── structure.txt
+│   │   │   │       │   │   │   │   │   ├── TeamOverview.tsx
+│   │   │   │       │   │   │   │   │   └── TradeCenter.tsx
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   ├── structure.txt
+│   │   │   │       │   │   │   │   └── ui
+│   │   │   │       │   │   │   │       ├── structure.json
+│   │   │   │       │   │   │   │       └── structure.txt
+│   │   │   │       │   │   │   ├── hooks
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   └── structure.txt
+│   │   │   │       │   │   │   ├── index.css
+│   │   │   │       │   │   │   ├── lib
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   └── structure.txt
+│   │   │   │       │   │   │   ├── pages
+│   │   │   │       │   │   │   │   ├── Index.tsx
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   └── structure.txt
+│   │   │   │       │   │   │   ├── structure.json
+│   │   │   │       │   │   │   └── structure.txt
+│   │   │   │       │   │   ├── structure.json
+│   │   │   │       │   │   ├── structure.txt
+│   │   │   │       │   │   └── tailwind.config.ts
+│   │   │   │       │   ├── structure.json
+│   │   │   │       │   └── structure.txt
+│   │   │   │       ├── fantasy-edge-ahead-main
+│   │   │   │       │   ├── fantasy-edge-ahead-main
+│   │   │   │       │   │   ├── index.html
+│   │   │   │       │   │   ├── public
+│   │   │   │       │   │   │   ├── structure.json
+│   │   │   │       │   │   │   └── structure.txt
+│   │   │   │       │   │   ├── README.md
+│   │   │   │       │   │   ├── src
+│   │   │   │       │   │   │   ├── components
+│   │   │   │       │   │   │   │   ├── AlertsSection.tsx
+│   │   │   │       │   │   │   │   ├── CtaSection.tsx
+│   │   │   │       │   │   │   │   ├── FeatureSection.tsx
+│   │   │   │       │   │   │   │   ├── Footer.tsx
+│   │   │   │       │   │   │   │   ├── HeroSection.tsx
+│   │   │   │       │   │   │   │   ├── NavBar.tsx
+│   │   │   │       │   │   │   │   ├── PricingSection.tsx
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   ├── structure.txt
+│   │   │   │       │   │   │   │   ├── TestimonialsSection.tsx
+│   │   │   │       │   │   │   │   ├── ToolsSection.tsx
+│   │   │   │       │   │   │   │   └── ui
+│   │   │   │       │   │   │   │       ├── sonner.tsx
+│   │   │   │       │   │   │   │       ├── structure.json
+│   │   │   │       │   │   │   │       └── structure.txt
+│   │   │   │       │   │   │   ├── hooks
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   └── structure.txt
+│   │   │   │       │   │   │   ├── index.css
+│   │   │   │       │   │   │   ├── lib
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   └── structure.txt
+│   │   │   │       │   │   │   ├── pages
+│   │   │   │       │   │   │   │   ├── Index.tsx
+│   │   │   │       │   │   │   │   ├── structure.json
+│   │   │   │       │   │   │   │   └── structure.txt
+│   │   │   │       │   │   │   ├── structure.json
+│   │   │   │       │   │   │   └── structure.txt
+│   │   │   │       │   │   ├── structure.json
+│   │   │   │       │   │   ├── structure.txt
+│   │   │   │       │   │   └── tailwind.config.ts
+│   │   │   │       │   ├── structure.json
+│   │   │   │       │   └── structure.txt
+│   │   │   │       ├── structure.json
+│   │   │   │       └── structure.txt
+│   │   │   ├── docs
+│   │   │   │   ├── api
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── backend
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── config
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── development
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── setup
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   └── ui
+│   │   │   │       ├── structure.json
+│   │   │   │       └── structure.txt
+│   │   │   ├── .gitlab-ci.yml
+│   │   │   ├── server
+│   │   │   │   ├── api
+│   │   │   │   │   ├── afl_fantasy_flask_api
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   └── tools
+│   │   │   │   │   │       ├── structure.json
+│   │   │   │   │   │       └── structure.txt
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── config
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── data
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── requirements
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── router
+│   │   │   │   │   ├── backend
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   ├── database
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   ├── frontend
+│   │   │   │   │   │   ├── pages
+│   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── scrapers
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   └── tools
+│   │   │   │       ├── structure.json
+│   │   │   │       └── structure.txt
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── gitlab-private
+│   ├── archived
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── projects
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── gitlab-tiation
+│   ├── chasewhiterabbit
+│   │   ├── projects
+│   │   │   ├── gitlab-docs
+│   │   │   │   ├── README.md
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── config
+│   │   ├── projects
+│   │   │   ├── bash_config
+│   │   │   │   ├── README.md
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── dotfiles
+│   │   │   │   ├── README.md
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── gh
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── gitconfig
+│   │   │   ├── github
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── gitlab
+│   │   │   │   ├── com.conf
+│   │   │   │   ├── private.conf
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── glab
+│   │   │   │   ├── aliases.yml
+│   │   │   │   ├── config.yml
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── network
+│   │   │   │   ├── README.md
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── snippets
+│   │   │   │   ├── README.md
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── cwr
+│   │   ├── projects
+│   │   │   ├── ai
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── chatgpt
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── crispy-succotash-main
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── dnd.directory
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── intranet.chasewhiterabbit.com
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── my-vue-app
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── network
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── secrets
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── structure.json
+│   │   │   ├── structure.txt
+│   │   │   ├── vllm-env
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── web3-cross-platform-dapp-main
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   └── webappdice-pr-smol-dev-x3bmya
+│   │   │       ├── structure.json
+│   │   │       └── structure.txt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── personal
+│   │   ├── projects
+│   │   │   ├── bookmarks
+│   │   │   │   ├── README.md
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── dnd.directory
+│   │   │   │   ├── README.md
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── info-silo
+│   │   │   │   ├── README.md
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── sms_relentless
+│   │   │   │   ├── README.md
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── init.sh
+├── README.md
+├── repos
+│   ├── apfs-fuse
+│   │   ├── 3rdparty
+│   │   │   ├── lzfse
+│   │   │   │   ├── appveyor.yml
+│   │   │   │   ├── CMakeLists.txt
+│   │   │   │   ├── .gitignore
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── lzfse.xcodeproj
+│   │   │   │   │   ├── project.pbxproj
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── README.md
+│   │   │   │   ├── src
+│   │   │   │   │   ├── lzfse_decode_base.c
+│   │   │   │   │   ├── lzfse_decode.c
+│   │   │   │   │   ├── lzfse_encode_base.c
+│   │   │   │   │   ├── lzfse_encode.c
+│   │   │   │   │   ├── lzfse_encode_tables.h
+│   │   │   │   │   ├── lzfse_fse.c
+│   │   │   │   │   ├── lzfse_fse.h
+│   │   │   │   │   ├── lzfse.h
+│   │   │   │   │   ├── lzfse_internal.h
+│   │   │   │   │   ├── lzfse_main.c
+│   │   │   │   │   ├── lzfse_tunables.h
+│   │   │   │   │   ├── lzvn_decode_base.c
+│   │   │   │   │   ├── lzvn_decode_base.h
+│   │   │   │   │   ├── lzvn_encode_base.c
+│   │   │   │   │   ├── lzvn_encode_base.h
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   ├── tests
+│   │   │   │   │   ├── round-trip.cmake
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   └── .travis.yml
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── ApfsDump
+│   │   │   ├── Apfs.cpp
+│   │   │   ├── Dumper.cpp
+│   │   │   ├── Dumper.h
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── ApfsDumpQuick
+│   │   │   ├── ApfsDumpQuick.cpp
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── apfsfuse
+│   │   │   ├── ApfsFuse.cpp
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── ApfsLib
+│   │   │   ├── ApfsContainer.cpp
+│   │   │   ├── ApfsContainer.h
+│   │   │   ├── ApfsDir.cpp
+│   │   │   ├── ApfsDir.h
+│   │   │   ├── ApfsNodeMapperBTree.cpp
+│   │   │   ├── ApfsNodeMapperBTree.h
+│   │   │   ├── ApfsNodeMapper.cpp
+│   │   │   ├── ApfsNodeMapper.h
+│   │   │   ├── ApfsTypes.h
+│   │   │   ├── ApfsVolume.cpp
+│   │   │   ├── ApfsVolume.h
+│   │   │   ├── BlockDumper.cpp
+│   │   │   ├── BlockDumper.h
+│   │   │   ├── BTree.cpp
+│   │   │   ├── BTree.h
+│   │   │   ├── CheckPointMap.cpp
+│   │   │   ├── CheckPointMap.h
+│   │   │   ├── Crc32.cpp
+│   │   │   ├── Crc32.h
+│   │   │   ├── Decmpfs.cpp
+│   │   │   ├── Decmpfs.h
+│   │   │   ├── Device.cpp
+│   │   │   ├── DeviceDMG.cpp
+│   │   │   ├── DeviceDMG.h
+│   │   │   ├── Device.h
+│   │   │   ├── DeviceLinux.cpp
+│   │   │   ├── DeviceLinux.h
+│   │   │   ├── DeviceMac.cpp
+│   │   │   ├── DeviceMac.h
+│   │   │   ├── DeviceSparseImage.cpp
+│   │   │   ├── DeviceSparseImage.h
+│   │   │   ├── DeviceVDI.cpp
+│   │   │   ├── DeviceVDI.h
+│   │   │   ├── DeviceWinFile.cpp
+│   │   │   ├── DeviceWinFile.h
+│   │   │   ├── DeviceWinPhys.cpp
+│   │   │   ├── DeviceWinPhys.h
+│   │   │   ├── DiskImageFile.cpp
+│   │   │   ├── DiskImageFile.h
+│   │   │   ├── DiskStruct.h
+│   │   │   ├── Endian.h
+│   │   │   ├── Global.h
+│   │   │   ├── GptPartitionMap.cpp
+│   │   │   ├── GptPartitionMap.h
+│   │   │   ├── KeyMgmt.cpp
+│   │   │   ├── KeyMgmt.h
+│   │   │   ├── PList.cpp
+│   │   │   ├── PList.h
+│   │   │   ├── structure.json
+│   │   │   ├── structure.txt
+│   │   │   ├── Unicode.cpp
+│   │   │   ├── Unicode.h
+│   │   │   ├── UnicodeTables_v10.h
+│   │   │   ├── Util.cpp
+│   │   │   └── Util.h
+│   │   ├── ApfsUtil
+│   │   │   ├── ApfsUtil.cpp
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── build
+│   │   │   ├── apfs-dump
+│   │   │   ├── apfs-dump-quick
+│   │   │   ├── apfs-fuse
+│   │   │   ├── apfsutil
+│   │   │   ├── CMakeCache.txt
+│   │   │   ├── CMakeFiles
+│   │   │   │   ├── 3.31.6
+│   │   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   │   ├── CompilerIdC
+│   │   │   │   │   │   ├── a.out
+│   │   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   └── tmp
+│   │   │   │   │   │       ├── structure.json
+│   │   │   │   │   │       └── structure.txt
+│   │   │   │   │   ├── CompilerIdCXX
+│   │   │   │   │   │   ├── a.out
+│   │   │   │   │   │   ├── CMakeCXXCompilerId.cpp
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   └── tmp
+│   │   │   │   │   │       ├── structure.json
+│   │   │   │   │   │       └── structure.txt
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── apfs.dir
+│   │   │   │   │   ├── ApfsLib
+│   │   │   │   │   │   ├── ApfsContainer.cpp.o
+│   │   │   │   │   │   ├── ApfsContainer.cpp.o.d
+│   │   │   │   │   │   ├── ApfsDir.cpp.o
+│   │   │   │   │   │   ├── ApfsDir.cpp.o.d
+│   │   │   │   │   │   ├── ApfsNodeMapperBTree.cpp.o
+│   │   │   │   │   │   ├── ApfsNodeMapperBTree.cpp.o.d
+│   │   │   │   │   │   ├── ApfsNodeMapper.cpp.o
+│   │   │   │   │   │   ├── ApfsNodeMapper.cpp.o.d
+│   │   │   │   │   │   ├── ApfsVolume.cpp.o
+│   │   │   │   │   │   ├── ApfsVolume.cpp.o.d
+│   │   │   │   │   │   ├── BlockDumper.cpp.o
+│   │   │   │   │   │   ├── BlockDumper.cpp.o.d
+│   │   │   │   │   │   ├── BTree.cpp.o
+│   │   │   │   │   │   ├── BTree.cpp.o.d
+│   │   │   │   │   │   ├── CheckPointMap.cpp.o
+│   │   │   │   │   │   ├── CheckPointMap.cpp.o.d
+│   │   │   │   │   │   ├── Crc32.cpp.o
+│   │   │   │   │   │   ├── Crc32.cpp.o.d
+│   │   │   │   │   │   ├── Decmpfs.cpp.o
+│   │   │   │   │   │   ├── Decmpfs.cpp.o.d
+│   │   │   │   │   │   ├── Device.cpp.o
+│   │   │   │   │   │   ├── Device.cpp.o.d
+│   │   │   │   │   │   ├── DeviceDMG.cpp.o
+│   │   │   │   │   │   ├── DeviceDMG.cpp.o.d
+│   │   │   │   │   │   ├── DeviceLinux.cpp.o
+│   │   │   │   │   │   ├── DeviceLinux.cpp.o.d
+│   │   │   │   │   │   ├── DeviceMac.cpp.o
+│   │   │   │   │   │   ├── DeviceMac.cpp.o.d
+│   │   │   │   │   │   ├── DeviceSparseImage.cpp.o
+│   │   │   │   │   │   ├── DeviceSparseImage.cpp.o.d
+│   │   │   │   │   │   ├── DeviceWinFile.cpp.o
+│   │   │   │   │   │   ├── DeviceWinFile.cpp.o.d
+│   │   │   │   │   │   ├── DeviceWinPhys.cpp.o
+│   │   │   │   │   │   ├── DeviceWinPhys.cpp.o.d
+│   │   │   │   │   │   ├── DiskImageFile.cpp.o
+│   │   │   │   │   │   ├── DiskImageFile.cpp.o.d
+│   │   │   │   │   │   ├── GptPartitionMap.cpp.o
+│   │   │   │   │   │   ├── GptPartitionMap.cpp.o.d
+│   │   │   │   │   │   ├── KeyMgmt.cpp.o
+│   │   │   │   │   │   ├── KeyMgmt.cpp.o.d
+│   │   │   │   │   │   ├── PList.cpp.o
+│   │   │   │   │   │   ├── PList.cpp.o.d
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   ├── Unicode.cpp.o
+│   │   │   │   │   │   ├── Unicode.cpp.o.d
+│   │   │   │   │   │   ├── Util.cpp.o
+│   │   │   │   │   │   └── Util.cpp.o.d
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── cmake_clean_target.cmake
+│   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── depend.make
+│   │   │   │   │   ├── flags.make
+│   │   │   │   │   ├── link.txt
+│   │   │   │   │   ├── progress.make
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── apfs-dump.dir
+│   │   │   │   │   ├── ApfsDump
+│   │   │   │   │   │   ├── Apfs.cpp.o
+│   │   │   │   │   │   ├── Apfs.cpp.o.d
+│   │   │   │   │   │   ├── Dumper.cpp.o
+│   │   │   │   │   │   ├── Dumper.cpp.o.d
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── depend.make
+│   │   │   │   │   ├── link.d
+│   │   │   │   │   ├── link.txt
+│   │   │   │   │   ├── progress.make
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── apfs-dump-quick.dir
+│   │   │   │   │   ├── ApfsDumpQuick
+│   │   │   │   │   │   ├── ApfsDumpQuick.cpp.o
+│   │   │   │   │   │   ├── ApfsDumpQuick.cpp.o.d
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── depend.make
+│   │   │   │   │   ├── link.d
+│   │   │   │   │   ├── link.txt
+│   │   │   │   │   ├── progress.make
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── apfs-fuse.dir
+│   │   │   │   │   ├── apfsfuse
+│   │   │   │   │   │   ├── ApfsFuse.cpp.o
+│   │   │   │   │   │   ├── ApfsFuse.cpp.o.d
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── depend.make
+│   │   │   │   │   ├── link.d
+│   │   │   │   │   ├── link.txt
+│   │   │   │   │   ├── progress.make
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── apfsutil.dir
+│   │   │   │   │   ├── ApfsUtil
+│   │   │   │   │   │   ├── ApfsUtil.cpp.o
+│   │   │   │   │   │   ├── ApfsUtil.cpp.o.d
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── depend.make
+│   │   │   │   │   ├── link.d
+│   │   │   │   │   ├── link.txt
+│   │   │   │   │   ├── progress.make
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── cmake.check_cache
+│   │   │   │   ├── CMakeConfigureLog.yaml
+│   │   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   │   ├── CMakeScratch
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── crypto.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── cmake_clean_target.cmake
+│   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── Crypto
+│   │   │   │   │   │   ├── Aes.cpp.o
+│   │   │   │   │   │   ├── Aes.cpp.o.d
+│   │   │   │   │   │   ├── AesXts.cpp.o
+│   │   │   │   │   │   ├── AesXts.cpp.o.d
+│   │   │   │   │   │   ├── Asn1Der.cpp.o
+│   │   │   │   │   │   ├── Asn1Der.cpp.o.d
+│   │   │   │   │   │   ├── Crypto.cpp.o
+│   │   │   │   │   │   ├── Crypto.cpp.o.d
+│   │   │   │   │   │   ├── Des.cpp.o
+│   │   │   │   │   │   ├── Des.cpp.o.d
+│   │   │   │   │   │   ├── Sha1.cpp.o
+│   │   │   │   │   │   ├── Sha1.cpp.o.d
+│   │   │   │   │   │   ├── Sha256.cpp.o
+│   │   │   │   │   │   ├── Sha256.cpp.o.d
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   ├── structure.txt
+│   │   │   │   │   │   ├── TripleDes.cpp.o
+│   │   │   │   │   │   └── TripleDes.cpp.o.d
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── depend.make
+│   │   │   │   │   ├── flags.make
+│   │   │   │   │   ├── link.txt
+│   │   │   │   │   ├── progress.make
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── lzfse.dir
+│   │   │   │   │   ├── 3rdparty
+│   │   │   │   │   │   ├── lzfse
+│   │   │   │   │   │   │   ├── src
+│   │   │   │   │   │   │   │   ├── lzfse_decode_base.c.o
+│   │   │   │   │   │   │   │   ├── lzfse_decode_base.c.o.d
+│   │   │   │   │   │   │   │   ├── lzfse_decode.c.o
+│   │   │   │   │   │   │   │   ├── lzfse_decode.c.o.d
+│   │   │   │   │   │   │   │   ├── lzfse_encode_base.c.o
+│   │   │   │   │   │   │   │   ├── lzfse_encode_base.c.o.d
+│   │   │   │   │   │   │   │   ├── lzfse_encode.c.o
+│   │   │   │   │   │   │   │   ├── lzfse_encode.c.o.d
+│   │   │   │   │   │   │   │   ├── lzfse_fse.c.o
+│   │   │   │   │   │   │   │   ├── lzfse_fse.c.o.d
+│   │   │   │   │   │   │   │   ├── lzvn_decode_base.c.o
+│   │   │   │   │   │   │   │   ├── lzvn_decode_base.c.o.d
+│   │   │   │   │   │   │   │   ├── lzvn_encode_base.c.o
+│   │   │   │   │   │   │   │   ├── lzvn_encode_base.c.o.d
+│   │   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── cmake_clean_target.cmake
+│   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── depend.make
+│   │   │   │   │   ├── flags.make
+│   │   │   │   │   ├── link.txt
+│   │   │   │   │   ├── progress.make
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── Makefile2
+│   │   │   │   ├── Makefile.cmake
+│   │   │   │   ├── pkgRedirects
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── progress.marks
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   └── TargetDirectories.txt
+│   │   │   ├── cmake_install.cmake
+│   │   │   ├── libapfs.a
+│   │   │   ├── libcrypto.a
+│   │   │   ├── liblzfse.a
+│   │   │   ├── Makefile
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── CMakeLists.txt
+│   │   ├── Crypto
+│   │   │   ├── Aes.cpp
+│   │   │   ├── Aes.h
+│   │   │   ├── AesXts.cpp
+│   │   │   ├── AesXts.h
+│   │   │   ├── Asn1Der.cpp
+│   │   │   ├── Asn1Der.h
+│   │   │   ├── Crypto.cpp
+│   │   │   ├── Crypto.h
+│   │   │   ├── Des.cpp
+│   │   │   ├── Des.h
+│   │   │   ├── Sha1.cpp
+│   │   │   ├── Sha1.h
+│   │   │   ├── Sha256.cpp
+│   │   │   ├── Sha256.h
+│   │   │   ├── structure.json
+│   │   │   ├── structure.txt
+│   │   │   ├── TripleDes.cpp
+│   │   │   └── TripleDes.h
+│   │   ├── .gitattributes
+│   │   ├── .gitignore
+│   │   ├── .gitmodules
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── github
+│   │   ├── Baymax
+│   │   │   ├── backups
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── memories
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── models
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── projects
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── prompts
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── run_baymax.py
+│   │   │   ├── setup.sh
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── btrfs-conversion
+│   │   │   ├── btrfs.txt
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── dotfiles
+│   │   │   ├── nginx.conf
+│   │   │   ├── README_bashrc.md
+│   │   │   ├── rebuild.py
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── gitlab
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── private-gitlab
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   ├── structure.txt
+│   └── weywot-main
+│       ├── Apps.md
+│       ├── assets
+│       │   ├── 2021-04-18_21-23.png
+│       │   ├── 2024-06-05_10-36_1.png
+│       │   ├── action.png
+│       │   ├── bootscreen.jpg
+│       │   ├── calc.png
+│       │   ├── context.png
+│       │   ├── cornerkeys.png
+│       │   ├── dconf01.png
+│       │   ├── dconf02.png
+│       │   ├── dekeys.png
+│       │   ├── desktop.png
+│       │   ├── Dont_Expand.png
+│       │   ├── Easy-Switch Keys.jpg
+│       │   ├── efi_shell.jpg
+│       │   ├── efi_uuid.png
+│       │   ├── efi_w10.jpg
+│       │   ├── esc.png
+│       │   ├── ext0.png
+│       │   ├── ext1.png
+│       │   ├── f2b_1.png
+│       │   ├── f2b_2.png
+│       │   ├── f2b_3.png
+│       │   ├── fix_GPT.png
+│       │   ├── fkeys.png
+│       │   ├── fn.png
+│       │   ├── kbdn.png
+│       │   ├── kbup.png
+│       │   ├── leftkeys.png
+│       │   ├── lock.png
+│       │   ├── logiMXKeys-us-ansi.png
+│       │   ├── multiboot.jpg
+│       │   ├── PC_layout.jpg
+│       │   ├── resize_USB.png
+│       │   ├── rightkeys.png
+│       │   ├── rules1.png
+│       │   ├── rules2.png
+│       │   ├── rules3.png
+│       │   ├── rules4.png
+│       │   ├── rules5.png
+│       │   ├── scrdn.png
+│       │   ├── screenshot.png
+│       │   ├── scrup.png
+│       │   ├── sndup.png
+│       │   ├── solaar0.png
+│       │   ├── solaar1.png
+│       │   ├── solaar2.png
+│       │   ├── structure.json
+│       │   ├── structure.txt
+│       │   ├── task.png
+│       │   ├── term01.png
+│       │   ├── term02.png
+│       │   ├── term_after.png
+│       │   ├── term_header.png
+│       │   ├── test1.png
+│       │   ├── us-int-mx-keys-gallery-graphite-front.png
+│       │   └── watermark.png
+│       ├── ax210.md
+│       ├── boot2kernel.md
+│       ├── Change_DNS.md
+│       ├── conky
+│       │   ├── Antares
+│       │   │   ├── Antares
+│       │   │   ├── AntaresOK
+│       │   │   ├── AntaresOK.bigscreen
+│       │   │   ├── AntaresOK_Complete
+│       │   │   ├── AntaresOK.good
+│       │   │   ├── AntaresOK_ori
+│       │   │   ├── AntaresOK_Perf1
+│       │   │   ├── Antares.png
+│       │   │   ├── bg-00.png
+│       │   │   ├── bg-01.png
+│       │   │   ├── bg.png
+│       │   │   ├── convert.lua
+│       │   │   ├── Fonts
+│       │   │   │   ├── Metropolis Black.ttf
+│       │   │   │   ├── Metropolis Extra Bold.ttf
+│       │   │   │   ├── Metropolis Light.ttf
+│       │   │   │   ├── Metropolis Medium.ttf
+│       │   │   │   ├── structure.json
+│       │   │   │   └── structure.txt
+│       │   │   ├── icon.lua
+│       │   │   ├── icons
+│       │   │   │   ├── structure.json
+│       │   │   │   ├── structure.txt
+│       │   │   │   └── white
+│       │   │   │       ├── 01d.png
+│       │   │   │       ├── 01n.png
+│       │   │   │       ├── 02d.png
+│       │   │   │       ├── 02n.png
+│       │   │   │       ├── 09d.png
+│       │   │   │       ├── 09n.png
+│       │   │   │       ├── 11d.png
+│       │   │   │       ├── 13d.png
+│       │   │   │       ├── 50d.png
+│       │   │   │       ├── arrow-down.png
+│       │   │   │       ├── arrow-up.png
+│       │   │   │       ├── blackline.png
+│       │   │   │       ├── humidity.png
+│       │   │   │       ├── line.png
+│       │   │   │       ├── map-marker.png
+│       │   │   │       ├── structure.json
+│       │   │   │       ├── structure.txt
+│       │   │   │       └── wind.png
+│       │   │   ├── line.png
+│       │   │   ├── rings-v1.2.1.lua
+│       │   │   ├── scripts
+│       │   │   │   ├── =
+│       │   │   │   ├── kelvin2celsius.sh
+│       │   │   │   ├── structure.json
+│       │   │   │   ├── structure.txt
+│       │   │   │   ├── weather-icon.sh
+│       │   │   │   └── weather.sh
+│       │   │   ├── structure.json
+│       │   │   ├── structure.txt
+│       │   │   └── time.lua
+│       │   ├── start_conky-big.sh
+│       │   ├── start_conky-big.sh.autostart
+│       │   ├── start_conky.sh
+│       │   ├── start_conky.sh.desktop
+│       │   ├── structure.json
+│       │   └── structure.txt
+│       ├── extensions.md
+│       ├── github.md
+│       ├── guides
+│       │   ├── activepen2.md
+│       │   ├── automount_usb.md
+│       │   ├── AX88179_USB.md
+│       │   ├── boot2nvme_nobios.md
+│       │   ├── bootfromSD.md
+│       │   ├── bt_dualboot.md
+│       │   ├── btrfs_usb_compression.md
+│       │   ├── chia.md
+│       │   ├── commands.md
+│       │   ├── crypt.md
+│       │   ├── digimend_tablets.md
+│       │   ├── dirty.md
+│       │   ├── disk_backup.md
+│       │   ├── easy_mpv_video.md
+│       │   ├── efishelldualboot.md
+│       │   ├── f40-sdboot-with-boot.md
+│       │   ├── Fedora39_Hibernate.md
+│       │   ├── fedora_kernelstub_systemd-boot.md
+│       │   ├── fedora.sdboot.fail.md
+│       │   ├── fedora_systemd-boot.md
+│       │   ├── fedora_systemd-boot_Unified_kernel.md
+│       │   ├── fedora_uki.md
+│       │   ├── fix_bios_boot_entry.md
+│       │   ├── Full_powersavings.md
+│       │   ├── GPT_PMBR_Size_Mismatch.md
+│       │   ├── groot.md
+│       │   ├── groot.txt
+│       │   ├── grub_menu.md
+│       │   ├── hibernate.md
+│       │   ├── howdy_X13.md
+│       │   ├── install-fedora.md
+│       │   ├── keyboard.md
+│       │   ├── lazybootscreen.md
+│       │   ├── light.md
+│       │   ├── mxkeys_linux.md
+│       │   ├── new_uki.md
+│       │   ├── pandoc_pdf.md
+│       │   ├── parallel.md
+│       │   ├── pi_camera.md
+│       │   ├── pop_boot_logo.md
+│       │   ├── PopOS_LUKS_BTRFS_TPM2.md
+│       │   ├── popos_luks_on_partition_not_FDE.md
+│       │   ├── pop_power.md
+│       │   ├── pop_terminal_header.md
+│       │   ├── raid5withLVM.md
+│       │   ├── rpi4_kiosk_with_rpimonitor.md
+│       │   ├── rpi_rtc.md
+│       │   ├── rsync_across_drives_mergerfs.md
+│       │   ├── screen_colour_temperature.md
+│       │   ├── solaar-udev.md
+│       │   ├── ssh.md
+│       │   ├── structure.json
+│       │   ├── structure.txt
+│       │   ├── swaps.md
+│       │   ├── sys_stuff.md
+│       │   └── ThinkPad_X13_Yoga_Gen3_Touch.md
+│       ├── kernel5.9_BT.md
+│       ├── kernel5.9_MSR.md
+│       ├── kernelstub.md
+│       ├── manj.md
+│       ├── motorbike.md
+│       ├── Pop_Btrfs_Subvolumes_with_Timeshift_Condensed.md
+│       ├── Pop_Btrfs_Subvolumes_with_Timeshift.md
+│       ├── Pop_OS_Dual_Boot.md
+│       ├── README.md
+│       ├── scripts
+│       │   ├── 1ccoex.py
+│       │   ├── back2ceres.csh
+│       │   ├── backup2Kuiper
+│       │   ├── backup2SD.csh
+│       │   ├── backup2USB.sh
+│       │   ├── bash_aliases
+│       │   ├── battery_monitor
+│       │   ├── blockmon.sh
+│       │   ├── boot2UEFI.csh
+│       │   ├── boot2WIN.csh
+│       │   ├── bright
+│       │   ├── cameragrab
+│       │   ├── camera_set
+│       │   ├── Caps_Lock_Leds.sh
+│       │   ├── ccoex.py
+│       │   ├── config.json
+│       │   ├── connect_csfc
+│       │   ├── cpu
+│       │   ├── docx2doc
+│       │   ├── dracut-UEFI-boot.sh.sh
+│       │   ├── duplicate_photos
+│       │   ├── echoNewLine
+│       │   ├── efiboot
+│       │   ├── fanonoff.csh
+│       │   ├── ffetch.csh
+│       │   ├── fingertest.csh
+│       │   ├── hdmisound
+│       │   ├── hot
+│       │   ├── iuvolt.service
+│       │   ├── kami.conf
+│       │   ├── kiosk.sh
+│       │   ├── laptopsound
+│       │   ├── largefont.csh
+│       │   ├── lleedd.sh
+│       │   ├── mhz
+│       │   ├── miconnectL
+│       │   ├── miconnectR
+│       │   ├── misound
+│       │   ├── mp4_2_gif
+│       │   ├── nexttrack
+│       │   ├── pauseplay
+│       │   ├── pi-calc
+│       │   ├── pixel.sh
+│       │   ├── pop_asci.sh
+│       │   ├── prevtrack
+│       │   ├── qrcreat
+│       │   ├── ram
+│       │   ├── read_in
+│       │   ├── remove_dups
+│       │   ├── restart_gnome_or_shell
+│       │   ├── rpi3_log
+│       │   ├── scaling_various
+│       │   ├── scaling_various.save
+│       │   ├── screengrab
+│       │   ├── sess
+│       │   ├── setmon
+│       │   ├── sndchange
+│       │   ├── structure.json
+│       │   ├── structure.txt
+│       │   ├── sudolargefont.csh
+│       │   ├── switch_profile.cons.sh
+│       │   ├── switchprofile.service
+│       │   ├── switch_profile.sh
+│       │   ├── test.csh
+│       │   ├── thinkfan.csh
+│       │   ├── toggle_dev.py
+│       │   ├── tp-auto-kbbl.service
+│       │   ├── tpconfig.x86_64
+│       │   ├── turbo-boost.sh
+│       │   ├── wac.sh
+│       │   ├── xournal.conf
+│       │   └── xournalppy.conf
+│       ├── structure.json
+│       ├── structure.txt
+│       ├── systemd-multiboot.md
+│       ├── testing.md
+│       ├── tex.md
+│       └── xanmod.md
+├── scripts
+│   ├── dev-tools.sh
+│   ├── gh-cli
+│   ├── git-portable
+│   ├── glab-cli
+│   ├── setup-cli.sh
+│   ├── setup.sh
+│   ├── structure.json
+│   ├── structure.txt
+│   ├── sync-repos.sh
+│   └── utils
+│       ├── init-workspace.sh
+│       ├── repo-manager.sh
+│       ├── structure.json
+│       └── structure.txt
+├── structure.json
+├── structure.txt
+├── templates
+│   ├── project-templates
+│   │   ├── golang
+│   │   │   ├── .gitignore
+│   │   │   ├── go.mod
+│   │   │   ├── main.go
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── node-js
+│   │   │   ├── .gitignore
+│   │   │   ├── index.js
+│   │   │   ├── package.json
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── python
+│   │   │   ├── .gitignore
+│   │   │   ├── project_name
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── setup.py
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── web-basic
+│   │       ├── css
+│   │       │   ├── structure.json
+│   │       │   ├── structure.txt
+│   │       │   └── style.css
+│   │       ├── .gitignore
+│   │       ├── index.html
+│   │       ├── js
+│   │       │   ├── main.js
+│   │       │   ├── structure.json
+│   │       │   └── structure.txt
+│   │       ├── structure.json
+│   │       └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+└── tools
+    ├── cli
+    │   ├── gh
+    │   │   ├── gh
+    │   │   ├── structure.json
+    │   │   └── structure.txt
+    │   ├── glab
+    │   │   ├── glab
+    │   │   ├── structure.json
+    │   │   └── structure.txt
+    │   ├── structure.json
+    │   └── structure.txt
+    ├── structure.json
+    └── structure.txt
+
+218 directories, 1173 files

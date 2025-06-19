@@ -1,0 +1,18 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/client/ui/fantasy-coach-ai-pilot-main/fantasy-coach-ai-pilot-main/src/components
+├── dashboard
+│   ├── DashboardSidebar.tsx
+│   ├── Dashboard.tsx
+│   ├── PlayerStats.tsx
+│   ├── RiskAnalysis.tsx
+│   ├── StrategyTools.tsx
+│   ├── structure.json
+│   ├── structure.txt
+│   ├── TeamOverview.tsx
+│   └── TradeCenter.tsx
+├── structure.json
+├── structure.txt
+└── ui
+    ├── structure.json
+    └── structure.txt
+
+3 directories, 13 files

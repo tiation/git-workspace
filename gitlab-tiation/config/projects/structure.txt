@@ -1,0 +1,38 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-tiation/config/projects
+├── bash_config
+│   ├── README.md
+│   ├── structure.json
+│   └── structure.txt
+├── dotfiles
+│   ├── README.md
+│   ├── structure.json
+│   └── structure.txt
+├── gh
+│   ├── structure.json
+│   └── structure.txt
+├── gitconfig
+├── github
+│   ├── structure.json
+│   └── structure.txt
+├── gitlab
+│   ├── com.conf
+│   ├── private.conf
+│   ├── structure.json
+│   └── structure.txt
+├── glab
+│   ├── aliases.yml
+│   ├── config.yml
+│   ├── structure.json
+│   └── structure.txt
+├── network
+│   ├── README.md
+│   ├── structure.json
+│   └── structure.txt
+├── snippets
+│   ├── README.md
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+└── structure.txt
+
+9 directories, 27 files

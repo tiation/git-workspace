@@ -1,0 +1,8 @@
+#!/bin/bash
+# Portable Git configuration wrapper
+
+# Use our custom gitconfig
+export GIT_CONFIG_GLOBAL="/home/lappy/Desktop/Projects/git-workspace/config/gitconfig"
+
+# Run git with the provided arguments
+git "$@"

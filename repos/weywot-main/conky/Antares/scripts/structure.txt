@@ -1,0 +1,9 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/repos/weywot-main/conky/Antares/scripts
+├── =
+├── kelvin2celsius.sh
+├── structure.json
+├── structure.txt
+├── weather-icon.sh
+└── weather.sh
+
+1 directory, 6 files

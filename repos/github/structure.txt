@@ -1,0 +1,35 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/repos/github
+├── Baymax
+│   ├── backups
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── memories
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── models
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── projects
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── prompts
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── run_baymax.py
+│   ├── setup.sh
+│   ├── structure.json
+│   └── structure.txt
+├── btrfs-conversion
+│   ├── btrfs.txt
+│   ├── structure.json
+│   └── structure.txt
+├── dotfiles
+│   ├── nginx.conf
+│   ├── README_bashrc.md
+│   ├── rebuild.py
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+└── structure.txt
+
+9 directories, 24 files

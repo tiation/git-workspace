@@ -1,0 +1,8 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/templates/project-templates/node-js
+├── .gitignore
+├── index.js
+├── package.json
+├── structure.json
+└── structure.txt
+
+1 directory, 5 files

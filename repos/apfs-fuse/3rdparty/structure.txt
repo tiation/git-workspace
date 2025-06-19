@@ -1,0 +1,41 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/repos/apfs-fuse/3rdparty
+├── lzfse
+│   ├── appveyor.yml
+│   ├── CMakeLists.txt
+│   ├── .gitignore
+│   ├── LICENSE
+│   ├── lzfse.xcodeproj
+│   │   ├── project.pbxproj
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── Makefile
+│   ├── README.md
+│   ├── src
+│   │   ├── lzfse_decode_base.c
+│   │   ├── lzfse_decode.c
+│   │   ├── lzfse_encode_base.c
+│   │   ├── lzfse_encode.c
+│   │   ├── lzfse_encode_tables.h
+│   │   ├── lzfse_fse.c
+│   │   ├── lzfse_fse.h
+│   │   ├── lzfse.h
+│   │   ├── lzfse_internal.h
+│   │   ├── lzfse_main.c
+│   │   ├── lzfse_tunables.h
+│   │   ├── lzvn_decode_base.c
+│   │   ├── lzvn_decode_base.h
+│   │   ├── lzvn_encode_base.c
+│   │   ├── lzvn_encode_base.h
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   ├── structure.txt
+│   ├── tests
+│   │   ├── round-trip.cmake
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   └── .travis.yml
+├── structure.json
+└── structure.txt
+
+5 directories, 34 files

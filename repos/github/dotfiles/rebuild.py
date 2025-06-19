@@ -1,0 +1,103 @@
+# Rebuild everything after environment reset
+import zipfile
+from pathlib import Path
+
+# Recreate code-server Docker + NGINX setup
+output_dir = Path("/mnt/data/code-server-nginx")
+output_dir.mkdir(exist_ok=True)
+
+# Docker Compose file
+compose_yaml = """version: '3.8'
+
+services:
+  code-server:
+    image: ghcr.io/coder/code-server:latest
+    container_name: code-server
+    restart: unless-stopped
+    environment:
+      - PASSWORD=your_secure_password_here
+    volumes:
+      - ./workspace:/home/coder/project
+      - ./coder-config:/home/coder/.config/code-server
+    expose:
+      - "8443"
+    networks:
+      - web
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-reverse-proxy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./certbot/www:/var/www/certbot
+      - ./certbot/conf:/etc/letsencrypt
+    depends_on:
+      - code-server
+    networks:
+      - web
+
+  certbot:
+    image: certbot/certbot
+    container_name: certbot
+    volumes:
+      - ./certbot/www:/var/www/certbot
+      - ./certbot/conf:/etc/letsencrypt
+    entrypoint: >
+      sh -c "certbot certonly --webroot --webroot-path=/var/www/certbot
+             --email your-email@example.com --agree-tos --no-eff-email
+             -d your.domain.com"
+
+networks:
+  web:
+    driver: bridge
+"""
+
+# NGINX reverse proxy config
+nginx_config = """server {
+    listen 80;
+    server_name your.domain.com;
+
+    location /.well-known/acme-challenge/ {
+        root /var/www/certbot;
+    }
+
+    location / {
+        return 301 https://$host$request_uri;
+    }
+}
+
+server {
+    listen 443 ssl;
+    server_name your.domain.com;
+
+    ssl_certificate /etc/letsencrypt/live/your.domain.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/your.domain.com/privkey.pem;
+
+    location / {
+        proxy_pass http://code-server:8443/;
+        proxy_set_header Host $host;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection upgrade;
+        proxy_set_header Accept-Encoding gzip;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+"""
+
+# Write both files
+(output_dir / "docker-compose.yml").write_text(compose_yaml)
+(output_dir / "nginx.conf").write_text(nginx_config)
+
+# Create ZIP
+zip_path = Path("/mnt/data/code-server-nginx.zip")
+with zipfile.ZipFile(zip_path, "w") as zipf:
+    for file in output_dir.iterdir():
+        zipf.write(file, arcname=file.name)
+
+zip_path.name
+

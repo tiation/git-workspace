@@ -1,0 +1,8 @@
+[
+  "structure.json",
+  "structure.txt",
+  "afl_fantasy_flask_api/structure.json",
+  "afl_fantasy_flask_api/structure.txt",
+  "afl_fantasy_flask_api/tools/structure.json",
+  "afl_fantasy_flask_api/tools/structure.txt"
+]

@@ -1,0 +1,5 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-tiation/cwr/projects/dnd.directory
+├── structure.json
+└── structure.txt
+
+1 directory, 2 files

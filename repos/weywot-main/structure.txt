@@ -1,0 +1,273 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/repos/weywot-main
+├── Apps.md
+├── assets
+│   ├── 2021-04-18_21-23.png
+│   ├── 2024-06-05_10-36_1.png
+│   ├── action.png
+│   ├── bootscreen.jpg
+│   ├── calc.png
+│   ├── context.png
+│   ├── cornerkeys.png
+│   ├── dconf01.png
+│   ├── dconf02.png
+│   ├── dekeys.png
+│   ├── desktop.png
+│   ├── Dont_Expand.png
+│   ├── Easy-Switch Keys.jpg
+│   ├── efi_shell.jpg
+│   ├── efi_uuid.png
+│   ├── efi_w10.jpg
+│   ├── esc.png
+│   ├── ext0.png
+│   ├── ext1.png
+│   ├── f2b_1.png
+│   ├── f2b_2.png
+│   ├── f2b_3.png
+│   ├── fix_GPT.png
+│   ├── fkeys.png
+│   ├── fn.png
+│   ├── kbdn.png
+│   ├── kbup.png
+│   ├── leftkeys.png
+│   ├── lock.png
+│   ├── logiMXKeys-us-ansi.png
+│   ├── multiboot.jpg
+│   ├── PC_layout.jpg
+│   ├── resize_USB.png
+│   ├── rightkeys.png
+│   ├── rules1.png
+│   ├── rules2.png
+│   ├── rules3.png
+│   ├── rules4.png
+│   ├── rules5.png
+│   ├── scrdn.png
+│   ├── screenshot.png
+│   ├── scrup.png
+│   ├── sndup.png
+│   ├── solaar0.png
+│   ├── solaar1.png
+│   ├── solaar2.png
+│   ├── structure.json
+│   ├── structure.txt
+│   ├── task.png
+│   ├── term01.png
+│   ├── term02.png
+│   ├── term_after.png
+│   ├── term_header.png
+│   ├── test1.png
+│   ├── us-int-mx-keys-gallery-graphite-front.png
+│   └── watermark.png
+├── ax210.md
+├── boot2kernel.md
+├── Change_DNS.md
+├── conky
+│   ├── Antares
+│   │   ├── Antares
+│   │   ├── AntaresOK
+│   │   ├── AntaresOK.bigscreen
+│   │   ├── AntaresOK_Complete
+│   │   ├── AntaresOK.good
+│   │   ├── AntaresOK_ori
+│   │   ├── AntaresOK_Perf1
+│   │   ├── Antares.png
+│   │   ├── bg-00.png
+│   │   ├── bg-01.png
+│   │   ├── bg.png
+│   │   ├── convert.lua
+│   │   ├── Fonts
+│   │   │   ├── Metropolis Black.ttf
+│   │   │   ├── Metropolis Extra Bold.ttf
+│   │   │   ├── Metropolis Light.ttf
+│   │   │   ├── Metropolis Medium.ttf
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── icon.lua
+│   │   ├── icons
+│   │   │   ├── structure.json
+│   │   │   ├── structure.txt
+│   │   │   └── white
+│   │   │       ├── 01d.png
+│   │   │       ├── 01n.png
+│   │   │       ├── 02d.png
+│   │   │       ├── 02n.png
+│   │   │       ├── 09d.png
+│   │   │       ├── 09n.png
+│   │   │       ├── 11d.png
+│   │   │       ├── 13d.png
+│   │   │       ├── 50d.png
+│   │   │       ├── arrow-down.png
+│   │   │       ├── arrow-up.png
+│   │   │       ├── blackline.png
+│   │   │       ├── humidity.png
+│   │   │       ├── line.png
+│   │   │       ├── map-marker.png
+│   │   │       ├── structure.json
+│   │   │       ├── structure.txt
+│   │   │       └── wind.png
+│   │   ├── line.png
+│   │   ├── rings-v1.2.1.lua
+│   │   ├── scripts
+│   │   │   ├── =
+│   │   │   ├── kelvin2celsius.sh
+│   │   │   ├── structure.json
+│   │   │   ├── structure.txt
+│   │   │   ├── weather-icon.sh
+│   │   │   └── weather.sh
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── time.lua
+│   ├── start_conky-big.sh
+│   ├── start_conky-big.sh.autostart
+│   ├── start_conky.sh
+│   ├── start_conky.sh.desktop
+│   ├── structure.json
+│   └── structure.txt
+├── extensions.md
+├── github.md
+├── guides
+│   ├── activepen2.md
+│   ├── automount_usb.md
+│   ├── AX88179_USB.md
+│   ├── boot2nvme_nobios.md
+│   ├── bootfromSD.md
+│   ├── bt_dualboot.md
+│   ├── btrfs_usb_compression.md
+│   ├── chia.md
+│   ├── commands.md
+│   ├── crypt.md
+│   ├── digimend_tablets.md
+│   ├── dirty.md
+│   ├── disk_backup.md
+│   ├── easy_mpv_video.md
+│   ├── efishelldualboot.md
+│   ├── f40-sdboot-with-boot.md
+│   ├── Fedora39_Hibernate.md
+│   ├── fedora_kernelstub_systemd-boot.md
+│   ├── fedora.sdboot.fail.md
+│   ├── fedora_systemd-boot.md
+│   ├── fedora_systemd-boot_Unified_kernel.md
+│   ├── fedora_uki.md
+│   ├── fix_bios_boot_entry.md
+│   ├── Full_powersavings.md
+│   ├── GPT_PMBR_Size_Mismatch.md
+│   ├── groot.md
+│   ├── groot.txt
+│   ├── grub_menu.md
+│   ├── hibernate.md
+│   ├── howdy_X13.md
+│   ├── install-fedora.md
+│   ├── keyboard.md
+│   ├── lazybootscreen.md
+│   ├── light.md
+│   ├── mxkeys_linux.md
+│   ├── new_uki.md
+│   ├── pandoc_pdf.md
+│   ├── parallel.md
+│   ├── pi_camera.md
+│   ├── pop_boot_logo.md
+│   ├── PopOS_LUKS_BTRFS_TPM2.md
+│   ├── popos_luks_on_partition_not_FDE.md
+│   ├── pop_power.md
+│   ├── pop_terminal_header.md
+│   ├── raid5withLVM.md
+│   ├── rpi4_kiosk_with_rpimonitor.md
+│   ├── rpi_rtc.md
+│   ├── rsync_across_drives_mergerfs.md
+│   ├── screen_colour_temperature.md
+│   ├── solaar-udev.md
+│   ├── ssh.md
+│   ├── structure.json
+│   ├── structure.txt
+│   ├── swaps.md
+│   ├── sys_stuff.md
+│   └── ThinkPad_X13_Yoga_Gen3_Touch.md
+├── kernel5.9_BT.md
+├── kernel5.9_MSR.md
+├── kernelstub.md
+├── manj.md
+├── motorbike.md
+├── Pop_Btrfs_Subvolumes_with_Timeshift_Condensed.md
+├── Pop_Btrfs_Subvolumes_with_Timeshift.md
+├── Pop_OS_Dual_Boot.md
+├── README.md
+├── scripts
+│   ├── 1ccoex.py
+│   ├── back2ceres.csh
+│   ├── backup2Kuiper
+│   ├── backup2SD.csh
+│   ├── backup2USB.sh
+│   ├── bash_aliases
+│   ├── battery_monitor
+│   ├── blockmon.sh
+│   ├── boot2UEFI.csh
+│   ├── boot2WIN.csh
+│   ├── bright
+│   ├── cameragrab
+│   ├── camera_set
+│   ├── Caps_Lock_Leds.sh
+│   ├── ccoex.py
+│   ├── config.json
+│   ├── connect_csfc
+│   ├── cpu
+│   ├── docx2doc
+│   ├── dracut-UEFI-boot.sh.sh
+│   ├── duplicate_photos
+│   ├── echoNewLine
+│   ├── efiboot
+│   ├── fanonoff.csh
+│   ├── ffetch.csh
+│   ├── fingertest.csh
+│   ├── hdmisound
+│   ├── hot
+│   ├── iuvolt.service
+│   ├── kami.conf
+│   ├── kiosk.sh
+│   ├── laptopsound
+│   ├── largefont.csh
+│   ├── lleedd.sh
+│   ├── mhz
+│   ├── miconnectL
+│   ├── miconnectR
+│   ├── misound
+│   ├── mp4_2_gif
+│   ├── nexttrack
+│   ├── pauseplay
+│   ├── pi-calc
+│   ├── pixel.sh
+│   ├── pop_asci.sh
+│   ├── prevtrack
+│   ├── qrcreat
+│   ├── ram
+│   ├── read_in
+│   ├── remove_dups
+│   ├── restart_gnome_or_shell
+│   ├── rpi3_log
+│   ├── scaling_various
+│   ├── scaling_various.save
+│   ├── screengrab
+│   ├── sess
+│   ├── setmon
+│   ├── sndchange
+│   ├── structure.json
+│   ├── structure.txt
+│   ├── sudolargefont.csh
+│   ├── switch_profile.cons.sh
+│   ├── switchprofile.service
+│   ├── switch_profile.sh
+│   ├── test.csh
+│   ├── thinkfan.csh
+│   ├── toggle_dev.py
+│   ├── tp-auto-kbbl.service
+│   ├── tpconfig.x86_64
+│   ├── turbo-boost.sh
+│   ├── wac.sh
+│   ├── xournal.conf
+│   └── xournalppy.conf
+├── structure.json
+├── structure.txt
+├── systemd-multiboot.md
+├── testing.md
+├── tex.md
+└── xanmod.md
+
+10 directories, 261 files

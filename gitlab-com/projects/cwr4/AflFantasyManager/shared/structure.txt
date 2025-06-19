@@ -1,0 +1,6 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/AflFantasyManager/shared
+├── schema.ts
+├── structure.json
+└── structure.txt
+
+1 directory, 3 files

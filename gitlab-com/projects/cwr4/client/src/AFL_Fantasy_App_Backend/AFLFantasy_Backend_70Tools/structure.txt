@@ -1,0 +1,8 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/client/src/AFL_Fantasy_App_Backend/AFLFantasy_Backend_70Tools
+├── structure.json
+├── structure.txt
+└── tools
+    ├── structure.json
+    └── structure.txt
+
+2 directories, 4 files

@@ -1,0 +1,14 @@
+[
+  "structure.json",
+  "structure.txt",
+  "flask_api/structure.json",
+  "flask_api/structure.txt",
+  "scraper/structure.json",
+  "scraper/structure.txt",
+  "scraper/spiders/structure.json",
+  "scraper/spiders/structure.txt",
+  "flask_api/tools/structure.json",
+  "flask_api/tools/structure.txt",
+  "flask_api/utils/structure.json",
+  "flask_api/utils/structure.txt"
+]

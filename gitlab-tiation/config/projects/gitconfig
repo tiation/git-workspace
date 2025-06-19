@@ -1,0 +1,9 @@
+[user]
+    name = raf astor
+    email = t115th3on31k@gmail.com
+
+[includeIf "gitdir:/home/lappy/Desktop/Projects/git-workspace/gitlab-private/"]
+    path = /home/lappy/Desktop/Projects/git-workspace/config/gitlab/private.conf
+    
+[includeIf "gitdir:/home/lappy/Desktop/Projects/git-workspace/gitlab-com/"]
+    path = /home/lappy/Desktop/Projects/git-workspace/config/gitlab/com.conf

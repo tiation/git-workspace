@@ -1,0 +1,11 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/github
+├── archived
+│   ├── structure.json
+│   └── structure.txt
+├── projects
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+└── structure.txt
+
+3 directories, 6 files

@@ -1,0 +1,17 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/server/router
+├── backend
+│   ├── structure.json
+│   └── structure.txt
+├── database
+│   ├── structure.json
+│   └── structure.txt
+├── frontend
+│   ├── pages
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+└── structure.txt
+
+5 directories, 10 files

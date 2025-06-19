@@ -1,0 +1,21 @@
+[
+  "structure.json",
+  "structure.txt",
+  ".git/config",
+  ".git/objects/structure.json",
+  ".git/objects/structure.txt",
+  ".git/info/structure.json",
+  ".git/info/structure.txt",
+  ".git/refs/structure.json",
+  ".git/refs/structure.txt",
+  ".git/hooks/structure.json",
+  ".git/hooks/structure.txt",
+  ".git/refs/tags/structure.json",
+  ".git/refs/tags/structure.txt",
+  ".git/refs/heads/structure.json",
+  ".git/refs/heads/structure.txt",
+  ".git/objects/pack/structure.json",
+  ".git/objects/pack/structure.txt",
+  ".git/objects/info/structure.json",
+  ".git/objects/info/structure.txt"
+]

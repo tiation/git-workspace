@@ -1,0 +1,41 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-tiation/cwr
+├── projects
+│   ├── ai
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── chatgpt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── crispy-succotash-main
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── dnd.directory
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── intranet.chasewhiterabbit.com
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── my-vue-app
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── network
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── secrets
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   ├── structure.txt
+│   ├── vllm-env
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── web3-cross-platform-dapp-main
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   └── webappdice-pr-smol-dev-x3bmya
+│       ├── structure.json
+│       └── structure.txt
+├── structure.json
+└── structure.txt
+
+13 directories, 26 files

@@ -1,0 +1,9 @@
+[
+  ".gitignore",
+  "structure.json",
+  "structure.txt",
+  "setup.py",
+  "project_name/structure.json",
+  "project_name/__init__.py",
+  "project_name/structure.txt"
+]

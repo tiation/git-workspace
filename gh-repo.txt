@@ -1,0 +1,18 @@
+# Create a new GitHub repository
+gh repo create agent-logs --public --description "A comprehensive logging system for tracking commands, memory entries, and system events" --source . --remote origin && \
+# Push our existing commits
+git push -u origin main && \
+# Now let's get our command history and format it into a useful reference
+echo "# Command History Reference
+
+The following commands were used to create and set up this logging system:
+
+## Setup Commands
+" > COMMANDS.md && \
+history | grep -E "mkdir|touch|chmod|git|./agent_logger|./auto_logger" | sed 's/^[0-9 ]*//g' >> COMMANDS.md && \
+echo "
+## Usage Examples
+" >> COMMANDS.md && \
+git add COMMANDS.md && \
+git commit -m "Add command history reference" && \
+git push

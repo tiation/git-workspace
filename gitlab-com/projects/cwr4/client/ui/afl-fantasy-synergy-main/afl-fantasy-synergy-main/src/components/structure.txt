@@ -1,0 +1,8 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/client/ui/afl-fantasy-synergy-main/afl-fantasy-synergy-main/src/components
+├── structure.json
+├── structure.txt
+└── ui
+    ├── structure.json
+    └── structure.txt
+
+2 directories, 4 files

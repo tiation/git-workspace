@@ -1,0 +1,41 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/client/ui/fantasy-edge-ahead-main/fantasy-edge-ahead-main
+├── index.html
+├── public
+│   ├── structure.json
+│   └── structure.txt
+├── README.md
+├── src
+│   ├── components
+│   │   ├── AlertsSection.tsx
+│   │   ├── CtaSection.tsx
+│   │   ├── FeatureSection.tsx
+│   │   ├── Footer.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── NavBar.tsx
+│   │   ├── PricingSection.tsx
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   ├── TestimonialsSection.tsx
+│   │   ├── ToolsSection.tsx
+│   │   └── ui
+│   │       ├── sonner.tsx
+│   │       ├── structure.json
+│   │       └── structure.txt
+│   ├── hooks
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── index.css
+│   ├── lib
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── pages
+│   │   ├── Index.tsx
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+├── structure.txt
+└── tailwind.config.ts
+
+8 directories, 31 files

@@ -1,0 +1,14 @@
+[
+  "structure.json",
+  "structure.txt",
+  "components/structure.json",
+  "components/structure.txt",
+  "pages/structure.json",
+  "pages/structure.txt",
+  "lib/structure.json",
+  "lib/structure.txt",
+  "hooks/structure.json",
+  "hooks/structure.txt",
+  "components/ui/structure.json",
+  "components/ui/structure.txt"
+]

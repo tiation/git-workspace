@@ -1,0 +1,19 @@
+[
+  "lzvn_decode_base.h",
+  "lzfse_decode.c",
+  "structure.json",
+  "lzfse.h",
+  "lzfse_decode_base.c",
+  "lzfse_encode_base.c",
+  "structure.txt",
+  "lzfse_encode.c",
+  "lzvn_encode_base.c",
+  "lzfse_internal.h",
+  "lzfse_fse.h",
+  "lzvn_decode_base.c",
+  "lzfse_tunables.h",
+  "lzfse_encode_tables.h",
+  "lzfse_main.c",
+  "lzvn_encode_base.h",
+  "lzfse_fse.c"
+]

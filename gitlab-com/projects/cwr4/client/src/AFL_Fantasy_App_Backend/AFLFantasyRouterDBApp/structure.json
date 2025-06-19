@@ -1,0 +1,12 @@
+[
+  "structure.json",
+  "structure.txt",
+  "backend/structure.json",
+  "backend/structure.txt",
+  "database/structure.json",
+  "database/structure.txt",
+  "frontend/structure.json",
+  "frontend/structure.txt",
+  "frontend/pages/structure.json",
+  "frontend/pages/structure.txt"
+]

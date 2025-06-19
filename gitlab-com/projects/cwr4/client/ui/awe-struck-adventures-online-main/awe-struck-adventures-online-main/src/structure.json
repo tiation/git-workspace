@@ -1,0 +1,22 @@
+[
+  "structure.json",
+  "structure.txt",
+  "index.css",
+  "App.css",
+  "components/structure.json",
+  "components/structure.txt",
+  "components/Navbar.tsx",
+  "components/AdventuresSection.tsx",
+  "components/ClassesSection.tsx",
+  "components/HeroSection.tsx",
+  "components/Footer.tsx",
+  "pages/structure.json",
+  "pages/Index.tsx",
+  "pages/structure.txt",
+  "lib/structure.json",
+  "lib/structure.txt",
+  "hooks/structure.json",
+  "hooks/structure.txt",
+  "components/ui/structure.json",
+  "components/ui/structure.txt"
+]

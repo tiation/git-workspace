@@ -1,0 +1,11 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/docs
+├── cli-tools.md
+├── dev-tools.md
+├── example-commands.md
+├── index.md
+├── structure.json
+├── structure.txt
+├── sync-tools.md
+└── templates.md
+
+1 directory, 8 files

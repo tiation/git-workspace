@@ -1,0 +1,44 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/server
+├── api
+│   ├── afl_fantasy_flask_api
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── tools
+│   │       ├── structure.json
+│   │       └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── config
+│   ├── structure.json
+│   └── structure.txt
+├── data
+│   ├── structure.json
+│   └── structure.txt
+├── requirements
+│   ├── structure.json
+│   └── structure.txt
+├── router
+│   ├── backend
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── database
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── frontend
+│   │   ├── pages
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── scrapers
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+├── structure.txt
+└── tools
+    ├── structure.json
+    └── structure.txt
+
+14 directories, 28 files

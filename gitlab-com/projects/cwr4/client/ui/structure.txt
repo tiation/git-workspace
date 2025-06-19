@@ -1,0 +1,158 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/client/ui
+├── afl-fantasy-synergy-main
+│   ├── afl-fantasy-synergy-main
+│   │   ├── index.html
+│   │   ├── public
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── components
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   └── ui
+│   │   │   │       ├── structure.json
+│   │   │   │       └── structure.txt
+│   │   │   ├── hooks
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── index.css
+│   │   │   ├── lib
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── pages
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── tailwind.config.ts
+│   ├── structure.json
+│   └── structure.txt
+├── awe-struck-adventures-online-main
+│   ├── awe-struck-adventures-online-main
+│   │   ├── index.html
+│   │   ├── public
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── App.css
+│   │   │   ├── components
+│   │   │   │   ├── AdventuresSection.tsx
+│   │   │   │   ├── ClassesSection.tsx
+│   │   │   │   ├── Footer.tsx
+│   │   │   │   ├── HeroSection.tsx
+│   │   │   │   ├── Navbar.tsx
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   └── ui
+│   │   │   │       ├── structure.json
+│   │   │   │       └── structure.txt
+│   │   │   ├── hooks
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── index.css
+│   │   │   ├── lib
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── pages
+│   │   │   │   ├── Index.tsx
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── tailwind.config.ts
+│   ├── structure.json
+│   └── structure.txt
+├── fantasy-coach-ai-pilot-main
+│   ├── fantasy-coach-ai-pilot-main
+│   │   ├── index.html
+│   │   ├── public
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── components
+│   │   │   │   ├── dashboard
+│   │   │   │   │   ├── DashboardSidebar.tsx
+│   │   │   │   │   ├── Dashboard.tsx
+│   │   │   │   │   ├── PlayerStats.tsx
+│   │   │   │   │   ├── RiskAnalysis.tsx
+│   │   │   │   │   ├── StrategyTools.tsx
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   ├── structure.txt
+│   │   │   │   │   ├── TeamOverview.tsx
+│   │   │   │   │   └── TradeCenter.tsx
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   └── ui
+│   │   │   │       ├── structure.json
+│   │   │   │       └── structure.txt
+│   │   │   ├── hooks
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── index.css
+│   │   │   ├── lib
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── pages
+│   │   │   │   ├── Index.tsx
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── tailwind.config.ts
+│   ├── structure.json
+│   └── structure.txt
+├── fantasy-edge-ahead-main
+│   ├── fantasy-edge-ahead-main
+│   │   ├── index.html
+│   │   ├── public
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── components
+│   │   │   │   ├── AlertsSection.tsx
+│   │   │   │   ├── CtaSection.tsx
+│   │   │   │   ├── FeatureSection.tsx
+│   │   │   │   ├── Footer.tsx
+│   │   │   │   ├── HeroSection.tsx
+│   │   │   │   ├── NavBar.tsx
+│   │   │   │   ├── PricingSection.tsx
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   ├── TestimonialsSection.tsx
+│   │   │   │   ├── ToolsSection.tsx
+│   │   │   │   └── ui
+│   │   │   │       ├── sonner.tsx
+│   │   │   │       ├── structure.json
+│   │   │   │       └── structure.txt
+│   │   │   ├── hooks
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── index.css
+│   │   │   ├── lib
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── pages
+│   │   │   │   ├── Index.tsx
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── tailwind.config.ts
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+└── structure.txt
+
+38 directories, 118 files

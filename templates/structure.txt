@@ -1,0 +1,42 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/templates
+├── project-templates
+│   ├── golang
+│   │   ├── .gitignore
+│   │   ├── go.mod
+│   │   ├── main.go
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── node-js
+│   │   ├── .gitignore
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── python
+│   │   ├── .gitignore
+│   │   ├── project_name
+│   │   │   ├── __init__.py
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── setup.py
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   ├── structure.txt
+│   └── web-basic
+│       ├── css
+│       │   ├── structure.json
+│       │   ├── structure.txt
+│       │   └── style.css
+│       ├── .gitignore
+│       ├── index.html
+│       ├── js
+│       │   ├── main.js
+│       │   ├── structure.json
+│       │   └── structure.txt
+│       ├── structure.json
+│       └── structure.txt
+├── structure.json
+└── structure.txt
+
+9 directories, 31 files

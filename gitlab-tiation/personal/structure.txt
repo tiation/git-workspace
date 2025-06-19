@@ -1,0 +1,24 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-tiation/personal
+├── projects
+│   ├── bookmarks
+│   │   ├── README.md
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── dnd.directory
+│   │   ├── README.md
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── info-silo
+│   │   ├── README.md
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── sms_relentless
+│   │   ├── README.md
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   └── structure.txt
+├── structure.json
+└── structure.txt
+
+6 directories, 16 files

@@ -1,0 +1,33 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/client/ui/afl-fantasy-synergy-main
+├── afl-fantasy-synergy-main
+│   ├── index.html
+│   ├── public
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── README.md
+│   ├── src
+│   │   ├── components
+│   │   │   ├── structure.json
+│   │   │   ├── structure.txt
+│   │   │   └── ui
+│   │   │       ├── structure.json
+│   │   │       └── structure.txt
+│   │   ├── hooks
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── index.css
+│   │   ├── lib
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── pages
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   ├── structure.txt
+│   └── tailwind.config.ts
+├── structure.json
+└── structure.txt
+
+9 directories, 22 files

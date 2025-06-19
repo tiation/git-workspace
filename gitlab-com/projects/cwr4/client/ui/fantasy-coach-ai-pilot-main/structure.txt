@@ -1,0 +1,44 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/gitlab-com/projects/cwr4/client/ui/fantasy-coach-ai-pilot-main
+├── fantasy-coach-ai-pilot-main
+│   ├── index.html
+│   ├── public
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── README.md
+│   ├── src
+│   │   ├── components
+│   │   │   ├── dashboard
+│   │   │   │   ├── DashboardSidebar.tsx
+│   │   │   │   ├── Dashboard.tsx
+│   │   │   │   ├── PlayerStats.tsx
+│   │   │   │   ├── RiskAnalysis.tsx
+│   │   │   │   ├── StrategyTools.tsx
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   ├── TeamOverview.tsx
+│   │   │   │   └── TradeCenter.tsx
+│   │   │   ├── structure.json
+│   │   │   ├── structure.txt
+│   │   │   └── ui
+│   │   │       ├── structure.json
+│   │   │       └── structure.txt
+│   │   ├── hooks
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── index.css
+│   │   ├── lib
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── pages
+│   │   │   ├── Index.tsx
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   └── structure.txt
+│   ├── structure.json
+│   ├── structure.txt
+│   └── tailwind.config.ts
+├── structure.json
+└── structure.txt
+
+10 directories, 32 files

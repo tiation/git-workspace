@@ -1,0 +1,9 @@
+[
+  "structure.json",
+  "index.ts",
+  "routes.ts",
+  "structure.txt",
+  "vite.ts",
+  "storage.ts",
+  "db.ts"
+]

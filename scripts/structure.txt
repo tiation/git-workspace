@@ -1,0 +1,17 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/scripts
+├── dev-tools.sh
+├── gh-cli
+├── git-portable
+├── glab-cli
+├── setup-cli.sh
+├── setup.sh
+├── structure.json
+├── structure.txt
+├── sync-repos.sh
+└── utils
+    ├── init-workspace.sh
+    ├── repo-manager.sh
+    ├── structure.json
+    └── structure.txt
+
+2 directories, 13 files

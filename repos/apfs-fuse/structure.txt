@@ -1,0 +1,403 @@
+/home/lappy/work/015_Shared_Tools/git-workspace/repos/apfs-fuse
+├── 3rdparty
+│   ├── lzfse
+│   │   ├── appveyor.yml
+│   │   ├── CMakeLists.txt
+│   │   ├── .gitignore
+│   │   ├── LICENSE
+│   │   ├── lzfse.xcodeproj
+│   │   │   ├── project.pbxproj
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── lzfse_decode_base.c
+│   │   │   ├── lzfse_decode.c
+│   │   │   ├── lzfse_encode_base.c
+│   │   │   ├── lzfse_encode.c
+│   │   │   ├── lzfse_encode_tables.h
+│   │   │   ├── lzfse_fse.c
+│   │   │   ├── lzfse_fse.h
+│   │   │   ├── lzfse.h
+│   │   │   ├── lzfse_internal.h
+│   │   │   ├── lzfse_main.c
+│   │   │   ├── lzfse_tunables.h
+│   │   │   ├── lzvn_decode_base.c
+│   │   │   ├── lzvn_decode_base.h
+│   │   │   ├── lzvn_encode_base.c
+│   │   │   ├── lzvn_encode_base.h
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   ├── tests
+│   │   │   ├── round-trip.cmake
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   └── .travis.yml
+│   ├── structure.json
+│   └── structure.txt
+├── ApfsDump
+│   ├── Apfs.cpp
+│   ├── Dumper.cpp
+│   ├── Dumper.h
+│   ├── structure.json
+│   └── structure.txt
+├── ApfsDumpQuick
+│   ├── ApfsDumpQuick.cpp
+│   ├── structure.json
+│   └── structure.txt
+├── apfsfuse
+│   ├── ApfsFuse.cpp
+│   ├── structure.json
+│   └── structure.txt
+├── ApfsLib
+│   ├── ApfsContainer.cpp
+│   ├── ApfsContainer.h
+│   ├── ApfsDir.cpp
+│   ├── ApfsDir.h
+│   ├── ApfsNodeMapperBTree.cpp
+│   ├── ApfsNodeMapperBTree.h
+│   ├── ApfsNodeMapper.cpp
+│   ├── ApfsNodeMapper.h
+│   ├── ApfsTypes.h
+│   ├── ApfsVolume.cpp
+│   ├── ApfsVolume.h
+│   ├── BlockDumper.cpp
+│   ├── BlockDumper.h
+│   ├── BTree.cpp
+│   ├── BTree.h
+│   ├── CheckPointMap.cpp
+│   ├── CheckPointMap.h
+│   ├── Crc32.cpp
+│   ├── Crc32.h
+│   ├── Decmpfs.cpp
+│   ├── Decmpfs.h
+│   ├── Device.cpp
+│   ├── DeviceDMG.cpp
+│   ├── DeviceDMG.h
+│   ├── Device.h
+│   ├── DeviceLinux.cpp
+│   ├── DeviceLinux.h
+│   ├── DeviceMac.cpp
+│   ├── DeviceMac.h
+│   ├── DeviceSparseImage.cpp
+│   ├── DeviceSparseImage.h
+│   ├── DeviceVDI.cpp
+│   ├── DeviceVDI.h
+│   ├── DeviceWinFile.cpp
+│   ├── DeviceWinFile.h
+│   ├── DeviceWinPhys.cpp
+│   ├── DeviceWinPhys.h
+│   ├── DiskImageFile.cpp
+│   ├── DiskImageFile.h
+│   ├── DiskStruct.h
+│   ├── Endian.h
+│   ├── Global.h
+│   ├── GptPartitionMap.cpp
+│   ├── GptPartitionMap.h
+│   ├── KeyMgmt.cpp
+│   ├── KeyMgmt.h
+│   ├── PList.cpp
+│   ├── PList.h
+│   ├── structure.json
+│   ├── structure.txt
+│   ├── Unicode.cpp
+│   ├── Unicode.h
+│   ├── UnicodeTables_v10.h
+│   ├── Util.cpp
+│   └── Util.h
+├── ApfsUtil
+│   ├── ApfsUtil.cpp
+│   ├── structure.json
+│   └── structure.txt
+├── build
+│   ├── apfs-dump
+│   ├── apfs-dump-quick
+│   ├── apfs-fuse
+│   ├── apfsutil
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   │   ├── 3.31.6
+│   │   │   ├── CMakeCCompiler.cmake
+│   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   ├── CompilerIdC
+│   │   │   │   ├── a.out
+│   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   └── tmp
+│   │   │   │       ├── structure.json
+│   │   │   │       └── structure.txt
+│   │   │   ├── CompilerIdCXX
+│   │   │   │   ├── a.out
+│   │   │   │   ├── CMakeCXXCompilerId.cpp
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   └── tmp
+│   │   │   │       ├── structure.json
+│   │   │   │       └── structure.txt
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── apfs.dir
+│   │   │   ├── ApfsLib
+│   │   │   │   ├── ApfsContainer.cpp.o
+│   │   │   │   ├── ApfsContainer.cpp.o.d
+│   │   │   │   ├── ApfsDir.cpp.o
+│   │   │   │   ├── ApfsDir.cpp.o.d
+│   │   │   │   ├── ApfsNodeMapperBTree.cpp.o
+│   │   │   │   ├── ApfsNodeMapperBTree.cpp.o.d
+│   │   │   │   ├── ApfsNodeMapper.cpp.o
+│   │   │   │   ├── ApfsNodeMapper.cpp.o.d
+│   │   │   │   ├── ApfsVolume.cpp.o
+│   │   │   │   ├── ApfsVolume.cpp.o.d
+│   │   │   │   ├── BlockDumper.cpp.o
+│   │   │   │   ├── BlockDumper.cpp.o.d
+│   │   │   │   ├── BTree.cpp.o
+│   │   │   │   ├── BTree.cpp.o.d
+│   │   │   │   ├── CheckPointMap.cpp.o
+│   │   │   │   ├── CheckPointMap.cpp.o.d
+│   │   │   │   ├── Crc32.cpp.o
+│   │   │   │   ├── Crc32.cpp.o.d
+│   │   │   │   ├── Decmpfs.cpp.o
+│   │   │   │   ├── Decmpfs.cpp.o.d
+│   │   │   │   ├── Device.cpp.o
+│   │   │   │   ├── Device.cpp.o.d
+│   │   │   │   ├── DeviceDMG.cpp.o
+│   │   │   │   ├── DeviceDMG.cpp.o.d
+│   │   │   │   ├── DeviceLinux.cpp.o
+│   │   │   │   ├── DeviceLinux.cpp.o.d
+│   │   │   │   ├── DeviceMac.cpp.o
+│   │   │   │   ├── DeviceMac.cpp.o.d
+│   │   │   │   ├── DeviceSparseImage.cpp.o
+│   │   │   │   ├── DeviceSparseImage.cpp.o.d
+│   │   │   │   ├── DeviceWinFile.cpp.o
+│   │   │   │   ├── DeviceWinFile.cpp.o.d
+│   │   │   │   ├── DeviceWinPhys.cpp.o
+│   │   │   │   ├── DeviceWinPhys.cpp.o.d
+│   │   │   │   ├── DiskImageFile.cpp.o
+│   │   │   │   ├── DiskImageFile.cpp.o.d
+│   │   │   │   ├── GptPartitionMap.cpp.o
+│   │   │   │   ├── GptPartitionMap.cpp.o.d
+│   │   │   │   ├── KeyMgmt.cpp.o
+│   │   │   │   ├── KeyMgmt.cpp.o.d
+│   │   │   │   ├── PList.cpp.o
+│   │   │   │   ├── PList.cpp.o.d
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   ├── Unicode.cpp.o
+│   │   │   │   ├── Unicode.cpp.o.d
+│   │   │   │   ├── Util.cpp.o
+│   │   │   │   └── Util.cpp.o.d
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── apfs-dump.dir
+│   │   │   ├── ApfsDump
+│   │   │   │   ├── Apfs.cpp.o
+│   │   │   │   ├── Apfs.cpp.o.d
+│   │   │   │   ├── Dumper.cpp.o
+│   │   │   │   ├── Dumper.cpp.o.d
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── link.d
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── apfs-dump-quick.dir
+│   │   │   ├── ApfsDumpQuick
+│   │   │   │   ├── ApfsDumpQuick.cpp.o
+│   │   │   │   ├── ApfsDumpQuick.cpp.o.d
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── link.d
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── apfs-fuse.dir
+│   │   │   ├── apfsfuse
+│   │   │   │   ├── ApfsFuse.cpp.o
+│   │   │   │   ├── ApfsFuse.cpp.o.d
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── link.d
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── apfsutil.dir
+│   │   │   ├── ApfsUtil
+│   │   │   │   ├── ApfsUtil.cpp.o
+│   │   │   │   ├── ApfsUtil.cpp.o.d
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── link.d
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── cmake.check_cache
+│   │   ├── CMakeConfigureLog.yaml
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   ├── CMakeScratch
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── crypto.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── Crypto
+│   │   │   │   ├── Aes.cpp.o
+│   │   │   │   ├── Aes.cpp.o.d
+│   │   │   │   ├── AesXts.cpp.o
+│   │   │   │   ├── AesXts.cpp.o.d
+│   │   │   │   ├── Asn1Der.cpp.o
+│   │   │   │   ├── Asn1Der.cpp.o.d
+│   │   │   │   ├── Crypto.cpp.o
+│   │   │   │   ├── Crypto.cpp.o.d
+│   │   │   │   ├── Des.cpp.o
+│   │   │   │   ├── Des.cpp.o.d
+│   │   │   │   ├── Sha1.cpp.o
+│   │   │   │   ├── Sha1.cpp.o.d
+│   │   │   │   ├── Sha256.cpp.o
+│   │   │   │   ├── Sha256.cpp.o.d
+│   │   │   │   ├── structure.json
+│   │   │   │   ├── structure.txt
+│   │   │   │   ├── TripleDes.cpp.o
+│   │   │   │   └── TripleDes.cpp.o.d
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── lzfse.dir
+│   │   │   ├── 3rdparty
+│   │   │   │   ├── lzfse
+│   │   │   │   │   ├── src
+│   │   │   │   │   │   ├── lzfse_decode_base.c.o
+│   │   │   │   │   │   ├── lzfse_decode_base.c.o.d
+│   │   │   │   │   │   ├── lzfse_decode.c.o
+│   │   │   │   │   │   ├── lzfse_decode.c.o.d
+│   │   │   │   │   │   ├── lzfse_encode_base.c.o
+│   │   │   │   │   │   ├── lzfse_encode_base.c.o.d
+│   │   │   │   │   │   ├── lzfse_encode.c.o
+│   │   │   │   │   │   ├── lzfse_encode.c.o.d
+│   │   │   │   │   │   ├── lzfse_fse.c.o
+│   │   │   │   │   │   ├── lzfse_fse.c.o.d
+│   │   │   │   │   │   ├── lzvn_decode_base.c.o
+│   │   │   │   │   │   ├── lzvn_decode_base.c.o.d
+│   │   │   │   │   │   ├── lzvn_encode_base.c.o
+│   │   │   │   │   │   ├── lzvn_encode_base.c.o.d
+│   │   │   │   │   │   ├── structure.json
+│   │   │   │   │   │   └── structure.txt
+│   │   │   │   │   ├── structure.json
+│   │   │   │   │   └── structure.txt
+│   │   │   │   ├── structure.json
+│   │   │   │   └── structure.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── Makefile2
+│   │   ├── Makefile.cmake
+│   │   ├── pkgRedirects
+│   │   │   ├── structure.json
+│   │   │   └── structure.txt
+│   │   ├── progress.marks
+│   │   ├── structure.json
+│   │   ├── structure.txt
+│   │   └── TargetDirectories.txt
+│   ├── cmake_install.cmake
+│   ├── libapfs.a
+│   ├── libcrypto.a
+│   ├── liblzfse.a
+│   ├── Makefile
+│   ├── structure.json
+│   └── structure.txt
+├── CMakeLists.txt
+├── Crypto
+│   ├── Aes.cpp
+│   ├── Aes.h
+│   ├── AesXts.cpp
+│   ├── AesXts.h
+│   ├── Asn1Der.cpp
+│   ├── Asn1Der.h
+│   ├── Crypto.cpp
+│   ├── Crypto.h
+│   ├── Des.cpp
+│   ├── Des.h
+│   ├── Sha1.cpp
+│   ├── Sha1.h
+│   ├── Sha256.cpp
+│   ├── Sha256.h
+│   ├── structure.json
+│   ├── structure.txt
+│   ├── TripleDes.cpp
+│   └── TripleDes.h
+├── .gitattributes
+├── .gitignore
+├── .gitmodules
+├── LICENSE
+├── README.md
+├── structure.json
+└── structure.txt
+
+37 directories, 364 files

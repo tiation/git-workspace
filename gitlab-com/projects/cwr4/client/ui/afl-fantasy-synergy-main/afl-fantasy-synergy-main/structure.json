@@ -1,0 +1,22 @@
+[
+  "structure.json",
+  "structure.txt",
+  "index.html",
+  "README.md",
+  "tailwind.config.ts",
+  "public/structure.json",
+  "public/structure.txt",
+  "src/structure.json",
+  "src/structure.txt",
+  "src/index.css",
+  "src/components/structure.json",
+  "src/components/structure.txt",
+  "src/pages/structure.json",
+  "src/pages/structure.txt",
+  "src/lib/structure.json",
+  "src/lib/structure.txt",
+  "src/hooks/structure.json",
+  "src/hooks/structure.txt",
+  "src/components/ui/structure.json",
+  "src/components/ui/structure.txt"
+]
